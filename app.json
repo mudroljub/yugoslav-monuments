@@ -1,4 +1,6 @@
 {
+  "name": "mape",
+  "displayName": "mape",
   "expo": {
     "sdkVersion": "27.0.0"
   }

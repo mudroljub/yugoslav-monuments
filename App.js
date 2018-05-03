@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import {
   AppRegistry,
   StyleSheet,
@@ -8,6 +8,7 @@ import {
   Animated,
   Image,
   Dimensions,
+  TouchableOpacity,
 } from "react-native";
 
 import MapView from "react-native-maps";
@@ -26,58 +27,106 @@ const CARD_WIDTH = CARD_HEIGHT - 50;
 
 export default class App extends Component {
   state = {
-      markers: [
-        {
-          coordinate: {
-            latitude: 45.524548,
-            longitude: -122.6749817,
-          },
-          title: "Najbolje mesto",
-          description: "This is the best place in Portland",
-          image: Images[0],
+    markers: [
+      {
+        coordinate: {
+          latitude: 45.524548,
+          longitude: -122.6749817,
         },
-        {
-          coordinate: {
-            latitude: 45.524698,
-            longitude: -122.6655507,
-          },
-          title: "Second Best Place",
-          description: "This is the second best place in Portland",
-          image: Images[1],
-        },
-        {
-          coordinate: {
-            latitude: 45.5230786,
-            longitude: -122.6701034,
-          },
-          title: "Third Best Place",
-          description: "This is the third best place in Portland",
-          image: Images[2],
-        },
-        {
-          coordinate: {
-            latitude: 45.521016,
-            longitude: -122.6561917,
-          },
-          title: "Fourth Best Place",
-          description: "This is the fourth best place in Portland",
-          image: Images[3],
-        },
-      ],
-      region: {
-        latitude: 45.52220671242907,
-        longitude: -122.6653281029795,
-        latitudeDelta: 0.04864195044303443,
-        longitudeDelta: 0.040142817690068,
+        title: "Best Place",
+        description: "This is the best place in Portland",
+        image: Images[0],
       },
-    };
+      {
+        coordinate: {
+          latitude: 45.524698,
+          longitude: -122.6655507,
+        },
+        title: "Second Best Place",
+        description: "This is the second best place in Portland",
+        image: Images[1],
+      },
+      {
+        coordinate: {
+          latitude: 45.5230786,
+          longitude: -122.6701034,
+        },
+        title: "Third Best Place",
+        description: "This is the third best place in Portland",
+        image: Images[2],
+      },
+      {
+        coordinate: {
+          latitude: 45.521016,
+          longitude: -122.6561917,
+        },
+        title: "Fourth Best Place",
+        description: "This is the fourth best place in Portland",
+        image: Images[3],
+      },
+    ],
+    region: {
+      latitude: 45.52220671242907,
+      longitude: -122.6653281029795,
+      latitudeDelta: 0.04864195044303443,
+      longitudeDelta: 0.040142817690068,
+    },
+  };
 
   componentWillMount() {
     this.index = 0;
     this.animation = new Animated.Value(0);
   }
+  componentDidMount() {
+    // We should detect when scrolling has stopped then animate
+    // We should just debounce the event listener here
+    this.animation.addListener(({ value }) => {
+      let index = Math.floor(value / CARD_WIDTH + 0.3); // animate 30% away from landing on the next item
+      if (index >= this.state.markers.length) {
+        index = this.state.markers.length - 1;
+      }
+      if (index <= 0) {
+        index = 0;
+      }
+
+      clearTimeout(this.regionTimeout);
+      this.regionTimeout = setTimeout(() => {
+        if (this.index !== index) {
+          this.index = index;
+          const { coordinate } = this.state.markers[index];
+          this.map.animateToRegion(
+            {
+              ...coordinate,
+              latitudeDelta: this.state.region.latitudeDelta,
+              longitudeDelta: this.state.region.longitudeDelta,
+            },
+            350
+          );
+        }
+      }, 10);
+    });
+  }
 
   render() {
+    const interpolations = this.state.markers.map((marker, index) => {
+      const inputRange = [
+        (index - 1) * CARD_WIDTH,
+        index * CARD_WIDTH,
+        ((index + 1) * CARD_WIDTH),
+      ];
+      const scale = this.animation.interpolate({
+        inputRange,
+        outputRange: [1, 2.5, 1],
+        extrapolate: "clamp",
+      });
+      const opacity = this.animation.interpolate({
+        inputRange,
+        outputRange: [0.35, 1, 0.35],
+        extrapolate: "clamp",
+      });
+      return { scale, opacity };
+    });
+
     return (
       <View style={styles.container}>
         <MapView
@@ -85,12 +134,21 @@ export default class App extends Component {
           initialRegion={this.state.region}
           style={styles.container}
         >
-          {/* TODO: odvojiti u metodu */}
           {this.state.markers.map((marker, index) => {
+            const scaleStyle = {
+              transform: [
+                {
+                  scale: interpolations[index].scale,
+                },
+              ],
+            };
+            const opacityStyle = {
+              opacity: interpolations[index].opacity,
+            };
             return (
               <MapView.Marker key={index} coordinate={marker.coordinate}>
-                <Animated.View style={[styles.markerWrap]}>
-                  <Animated.View style={[styles.ring]} />
+                <Animated.View style={[styles.markerWrap, opacityStyle]}>
+                  <Animated.View style={[styles.ring, scaleStyle]} />
                   <View style={styles.marker} />
                 </Animated.View>
               </MapView.Marker>
@@ -204,4 +262,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('App', () => App)
+AppRegistry.registerComponent("App", () => App);
