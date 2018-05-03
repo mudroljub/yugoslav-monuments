@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 import {
   AppRegistry,
   StyleSheet,
@@ -9,21 +9,13 @@ import {
   Image,
   Dimensions,
   TouchableOpacity,
-} from "react-native";
+} from "react-native"
+import MapView from "react-native-maps"
 
-import MapView from "react-native-maps";
+const { width, height } = Dimensions.get("window")
 
-const Images = [
-  { uri: "https://i.imgur.com/sNam9iJ.jpg" },
-  { uri: "https://i.imgur.com/N7rlQYt.jpg" },
-  { uri: "https://i.imgur.com/UDrH0wm.jpg" },
-  { uri: "https://i.imgur.com/Ka8kNST.jpg" }
-]
-
-const { width, height } = Dimensions.get("window");
-
-const CARD_HEIGHT = height / 4;
-const CARD_WIDTH = CARD_HEIGHT - 50;
+const CARD_HEIGHT = height / 4
+const CARD_WIDTH = CARD_HEIGHT - 50
 
 export default class App extends Component {
   state = {
@@ -35,7 +27,7 @@ export default class App extends Component {
         },
         title: "Best Place",
         description: "This is the best place in Portland",
-        image: Images[0],
+        image: { uri: "https://i.imgur.com/sNam9iJ.jpg" },
       },
       {
         coordinate: {
@@ -44,7 +36,7 @@ export default class App extends Component {
         },
         title: "Second Best Place",
         description: "This is the second best place in Portland",
-        image: Images[1],
+        image: { uri: "https://i.imgur.com/N7rlQYt.jpg" },
       },
       {
         coordinate: {
@@ -53,7 +45,7 @@ export default class App extends Component {
         },
         title: "Third Best Place",
         description: "This is the third best place in Portland",
-        image: Images[2],
+        image: { uri: "https://i.imgur.com/UDrH0wm.jpg" },
       },
       {
         coordinate: {
@@ -62,7 +54,7 @@ export default class App extends Component {
         },
         title: "Fourth Best Place",
         description: "This is the fourth best place in Portland",
-        image: Images[3],
+        image: { uri: "https://i.imgur.com/Ka8kNST.jpg" },
       },
     ],
     region: {
@@ -71,61 +63,59 @@ export default class App extends Component {
       latitudeDelta: 0.04864195044303443,
       longitudeDelta: 0.040142817690068,
     },
-  };
+  }
 
   componentWillMount() {
-    this.index = 0;
-    this.animation = new Animated.Value(0);
+    this.index = 0
+    this.animation = new Animated.Value(0)
   }
-  componentDidMount() {
-    // We should detect when scrolling has stopped then animate
-    // We should just debounce the event listener here
-    this.animation.addListener(({ value }) => {
-      let index = Math.floor(value / CARD_WIDTH + 0.3); // animate 30% away from landing on the next item
-      if (index >= this.state.markers.length) {
-        index = this.state.markers.length - 1;
-      }
-      if (index <= 0) {
-        index = 0;
-      }
 
-      clearTimeout(this.regionTimeout);
+  componentDidMount() {
+    const {markers, region} = this.state
+    // should detect when scrolling has stopped then animate
+    // should just debounce the event listener here
+    this.animation.addListener(({ value }) => {
+      let index = Math.floor(value / CARD_WIDTH + 0.3) // animate 30% away from landing on the next item
+      if (index >= markers.length) index = markers.length - 1
+      if (index <= 0) index = 0
+
+      clearTimeout(this.regionTimeout)
       this.regionTimeout = setTimeout(() => {
-        if (this.index !== index) {
-          this.index = index;
-          const { coordinate } = this.state.markers[index];
-          this.map.animateToRegion(
-            {
-              ...coordinate,
-              latitudeDelta: this.state.region.latitudeDelta,
-              longitudeDelta: this.state.region.longitudeDelta,
-            },
-            350
-          );
-        }
-      }, 10);
-    });
+        if (this.index === index) return
+
+        this.index = index
+        const {coordinate} = markers[index]
+        this.map.animateToRegion(
+          {
+            ...coordinate,
+            latitudeDelta: region.latitudeDelta,
+            longitudeDelta: region.longitudeDelta,
+          },
+          350
+        )
+      }, 10)
+    })
   }
 
   render() {
-    const interpolations = this.state.markers.map((marker, index) => {
+    const interpolations = this.state.markers.map((marker, i) => {
       const inputRange = [
-        (index - 1) * CARD_WIDTH,
-        index * CARD_WIDTH,
-        ((index + 1) * CARD_WIDTH),
-      ];
+        (i - 1) * CARD_WIDTH,
+        i * CARD_WIDTH,
+        ((i + 1) * CARD_WIDTH)
+      ]
       const scale = this.animation.interpolate({
         inputRange,
         outputRange: [1, 2.5, 1],
         extrapolate: "clamp",
-      });
+      })
       const opacity = this.animation.interpolate({
         inputRange,
         outputRange: [0.35, 1, 0.35],
         extrapolate: "clamp",
-      });
-      return { scale, opacity };
-    });
+      })
+      return { scale, opacity }
+    })
 
     return (
       <View style={styles.container}>
@@ -134,25 +124,18 @@ export default class App extends Component {
           initialRegion={this.state.region}
           style={styles.container}
         >
-          {this.state.markers.map((marker, index) => {
-            const scaleStyle = {
-              transform: [
-                {
-                  scale: interpolations[index].scale,
-                },
-              ],
-            };
-            const opacityStyle = {
-              opacity: interpolations[index].opacity,
-            };
+          {this.state.markers.map((marker, i) => {
+            const {scale, opacity} = interpolations[i]
+            const scaleStyle = { transform: [{scale}] }
+            const opacityStyle = {opacity}
             return (
-              <MapView.Marker key={index} coordinate={marker.coordinate}>
+              <MapView.Marker key={i} coordinate={marker.coordinate}>
                 <Animated.View style={[styles.markerWrap, opacityStyle]}>
                   <Animated.View style={[styles.ring, scaleStyle]} />
                   <View style={styles.marker} />
                 </Animated.View>
               </MapView.Marker>
-            );
+            )
           })}
         </MapView>
         <Animated.ScrollView
@@ -161,22 +144,18 @@ export default class App extends Component {
           showsHorizontalScrollIndicator={false}
           snapToInterval={CARD_WIDTH}
           onScroll={Animated.event(
-            [
-              {
-                nativeEvent: {
-                  contentOffset: {
-                    x: this.animation,
-                  },
-                },
-              },
-            ],
+            [{
+              nativeEvent: {
+                contentOffset: {x: this.animation}
+              }
+            }],
             { useNativeDriver: true }
           )}
           style={styles.scrollView}
           contentContainerStyle={styles.endPadding}
         >
-          {this.state.markers.map((marker, index) => (
-            <View style={styles.card} key={index}>
+          {this.state.markers.map((marker, i) => (
+            <View style={styles.card} key={i}>
               <Image
                 source={marker.image}
                 style={styles.cardImage}
@@ -192,7 +171,7 @@ export default class App extends Component {
           ))}
         </Animated.ScrollView>
       </View>
-    );
+    )
   }
 }
 
@@ -260,6 +239,6 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "rgba(130,4,150, 0.5)",
   },
-});
+})
 
-AppRegistry.registerComponent("App", () => App);
+AppRegistry.registerComponent("App", () => App)
