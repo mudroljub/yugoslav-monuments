@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import {
-  AppRegistry,
   Text,
   View,
   ScrollView,
@@ -8,11 +7,12 @@ import {
   TouchableOpacity
 } from "react-native"
 import MapView from "react-native-maps"
+
 import styles from './styles.js'
 
 export default class App extends Component {
   state = {
-    markers: [
+    monuments: [
       {
         coordinate: {
           latitude: 45.524548,
@@ -51,10 +51,10 @@ export default class App extends Component {
       },
     ],
     region: {
-      latitude: 45.52220671242907,
-      longitude: -122.6653281029795,
-      latitudeDelta: 0.04864195044303443, // zoom
-      longitudeDelta: 0.040142817690068,
+      latitude: 43.0602992,
+      longitude: 18.5701971,
+      latitudeDelta: 0.3, // zoom
+      longitudeDelta: 0.3,
     },
   }
 
@@ -95,7 +95,7 @@ export default class App extends Component {
           initialRegion={this.state.region}
           style={styles.container}
         >
-          {this.state.markers.map(this.renderMarker)}
+          {this.state.monuments.map(this.renderMarker)}
         </MapView>
 
         <ScrollView
@@ -104,11 +104,9 @@ export default class App extends Component {
           style={styles.scrollView}
           contentContainerStyle={styles.endPadding}
         >
-          {this.state.markers.map(this.renderCard)}
+          {this.state.monuments.map(this.renderCard)}
         </ScrollView>
       </View>
     )
   }
 }
-
-AppRegistry.registerComponent("App", () => App)
