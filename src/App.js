@@ -9,7 +9,7 @@ import {
 import MapView from "react-native-maps"
 import {connect} from 'react-redux'
 
-import styles from './styles.js'
+import styles from './styles'
 
 class App extends Component {
   centerMap = marker => {
