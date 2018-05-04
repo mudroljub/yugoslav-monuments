@@ -1,3 +1,5 @@
+// isprobati prost primer mapa https://github.com/react-community/react-native-maps
+// mozda izbaciti animacije
 import React, { Component } from "react"
 import {
   AppRegistry,
@@ -9,6 +11,7 @@ import {
   Image,
   Dimensions,
   TouchableOpacity,
+  Alert
 } from "react-native"
 import MapView from "react-native-maps"
 
@@ -78,45 +81,44 @@ export default class App extends Component {
       let index = Math.floor(value / CARD_WIDTH + 0.3) // animate 30% away from landing on the next item
       if (index >= markers.length) index = markers.length - 1
       if (index <= 0) index = 0
+      if (this.index === index) return
 
-      clearTimeout(this.regionTimeout)
-      this.regionTimeout = setTimeout(() => {
-        if (this.index === index) return
-
-        this.index = index
-        const {coordinate} = markers[index]
-        this.map.animateToRegion(
-          {
-            ...coordinate,
-            latitudeDelta: region.latitudeDelta,
-            longitudeDelta: region.longitudeDelta,
-          },
-          350
-        )
-      }, 10)
+      this.index = index
+      const {coordinate} = markers[index]
+      this.map.animateToRegion({
+        ...coordinate,
+        latitudeDelta: region.latitudeDelta,
+        longitudeDelta: region.longitudeDelta,
+      }, 350)
     })
   }
 
-  render() {
-    const interpolations = this.state.markers.map((marker, i) => {
-      const inputRange = [
-        (i - 1) * CARD_WIDTH,
-        i * CARD_WIDTH,
-        ((i + 1) * CARD_WIDTH)
-      ]
-      const scale = this.animation.interpolate({
-        inputRange,
-        outputRange: [1, 2.5, 1],
-        extrapolate: "clamp",
-      })
-      const opacity = this.animation.interpolate({
-        inputRange,
-        outputRange: [0.35, 1, 0.35],
-        extrapolate: "clamp",
-      })
-      return { scale, opacity }
-    })
+  handleMarkerTouch = () => {
+    Alert.alert('You tapped the button!')
+  }
 
+  renderMarker = (marker, i) => (
+    <MapView.Marker key={i} coordinate={marker.coordinate}>
+      <View style={styles.markerWrap}>
+        <View style={styles.ring} />
+        <View style={styles.marker} />
+      </View>
+    </MapView.Marker>
+  )
+
+  renderCard = (marker, i) => (
+    <TouchableOpacity style={styles.card} key={i} onPress={this.handleMarkerTouch}>
+      <Image source={marker.image} style={styles.cardImage} resizeMode="cover" />
+      <View style={styles.textContent}>
+        <Text numberOfLines={1} style={styles.cardtitle}>{marker.title}</Text>
+        <Text numberOfLines={1} style={styles.cardDescription}>
+          {marker.description}
+        </Text>
+      </View>
+    </TouchableOpacity>
+  )
+
+  render() {
     return (
       <View style={styles.container}>
         <MapView
@@ -124,20 +126,9 @@ export default class App extends Component {
           initialRegion={this.state.region}
           style={styles.container}
         >
-          {this.state.markers.map((marker, i) => {
-            const {scale, opacity} = interpolations[i]
-            const scaleStyle = { transform: [{scale}] }
-            const opacityStyle = {opacity}
-            return (
-              <MapView.Marker key={i} coordinate={marker.coordinate}>
-                <Animated.View style={[styles.markerWrap, opacityStyle]}>
-                  <Animated.View style={[styles.ring, scaleStyle]} />
-                  <View style={styles.marker} />
-                </Animated.View>
-              </MapView.Marker>
-            )
-          })}
+          {this.state.markers.map(this.renderMarker)}
         </MapView>
+
         <Animated.ScrollView
           horizontal
           scrollEventThrottle={1}
@@ -154,21 +145,7 @@ export default class App extends Component {
           style={styles.scrollView}
           contentContainerStyle={styles.endPadding}
         >
-          {this.state.markers.map((marker, i) => (
-            <View style={styles.card} key={i}>
-              <Image
-                source={marker.image}
-                style={styles.cardImage}
-                resizeMode="cover"
-              />
-              <View style={styles.textContent}>
-                <Text numberOfLines={1} style={styles.cardtitle}>{marker.title}</Text>
-                <Text numberOfLines={1} style={styles.cardDescription}>
-                  {marker.description}
-                </Text>
-              </View>
-            </View>
-          ))}
+          {this.state.markers.map(this.renderCard)}
         </Animated.ScrollView>
       </View>
     )
