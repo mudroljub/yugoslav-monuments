@@ -14,4 +14,3 @@ const AppWithStore = () => (
 )
 
 Expo.registerRootComponent(AppWithStore)
-// Expo.registerComponent('App', () => AppWithStore)
