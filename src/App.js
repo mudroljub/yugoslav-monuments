@@ -7,37 +7,26 @@ import Marker from './components/Marker'
 import Card from './components/Card'
 import styles from './styles'
 
+const App = ({region, monuments}) => (
+  <View style={styles.container}>
+    <MapView region={region} style={styles.container} >
+      {monuments.map((marker, i) =>
+        <Marker key={i} coordinate={marker.coordinate} />
+      )}
+    </MapView>
+    <ScrollView
+      horizontal
+      showsHorizontalScrollIndicator={false}
+      style={styles.scrollView}
+      contentContainerStyle={styles.endPadding}
+    >
+      {monuments.map((marker, i) =>
+        <Card key={i} marker={marker} />
+      )}
+    </ScrollView>
+  </View>
+)
+
 const mapStateToProps = ({region, monuments}) => ({region, monuments})
 
-@connect(mapStateToProps)
-export default class App extends Component {
-
-  renderMarker = (marker, i) => (
-    <Marker key={i} coordinate={marker.coordinate} />
-  )
-
-  renderCard = (marker, i) => (
-    <Card key={i} marker={marker} />
-  )
-
-  render() {
-    return (
-      <View style={styles.container}>
-        <MapView
-          region={this.props.region}
-          style={styles.container}
-        >
-          {this.props.monuments.map(this.renderMarker)}
-        </MapView>
-        <ScrollView
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          style={styles.scrollView}
-          contentContainerStyle={styles.endPadding}
-        >
-          {this.props.monuments.map(this.renderCard)}
-        </ScrollView>
-      </View>
-    )
-  }
-}
+export default connect(mapStateToProps)(App)

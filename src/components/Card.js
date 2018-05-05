@@ -1,12 +1,6 @@
 import React from 'react'
-import {
-  Text,
-  View,
-  Image,
-  TouchableOpacity
-} from 'react-native'
+import {Text, View, Image, TouchableOpacity} from 'react-native'
 import {connect} from 'react-redux'
-
 import {focusRegion} from '../state'
 import styles from '../styles'
 
