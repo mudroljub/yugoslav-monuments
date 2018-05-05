@@ -17,6 +17,8 @@ export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case 'FOCUS_REGION':
       return {...state, region: action.region}
+    case 'CHOOSE_MONUMENT':
+      // dodati svojstvo izabrani spomenik na stanje
     default:
       return state
   }

@@ -1,30 +1,15 @@
-import React, { Component } from 'react'
-import {View, ScrollView} from 'react-native'
-import MapView from 'react-native-maps'
-import {connect} from 'react-redux'
+import React from 'react'
+import {View} from 'react-native'
 
-import Marker from './components/Marker'
-import Card from './components/Card'
+import Map from './components/Map'
+import Scroller from './components/Scroller'
 import styles from './styles'
 
-const App = ({region, monuments}) => (
+const App = props => (
   <View style={styles.container}>
-    <MapView region={region} style={styles.container} >
-      {monuments.map((marker, i) =>
-        <Marker key={i} coordinate={marker.coordinate} />
-      )}
-    </MapView>
-    <ScrollView horizontal
-      showsHorizontalScrollIndicator={false}
-      style={styles.scrollView}
-    >
-      {monuments.map((marker, i) =>
-        <Card key={i} marker={marker} />
-      )}
-    </ScrollView>
+    <Map/>
+    <Scroller/>
   </View>
 )
 
-const mapStateToProps = ({region, monuments}) => ({region, monuments})
-
-export default connect(mapStateToProps)(App)
+export default App
