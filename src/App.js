@@ -1,17 +1,14 @@
-import React, { Component } from "react"
-import {
-  Text,
-  View,
-  ScrollView,
-  Image,
-  TouchableOpacity
-} from "react-native"
-import MapView from "react-native-maps"
+import React, { Component } from 'react'
+import {View, ScrollView} from 'react-native'
+import MapView from 'react-native-maps'
 import {connect} from 'react-redux'
 
+import Marker from './components/Marker'
+import Card from './components/Card'
 import styles from './styles'
 
 class App extends Component {
+  // prebaciti u akcije, menja region
   centerMap = marker => {
     this.map.animateToRegion({
       ...marker.coordinate,
@@ -21,24 +18,11 @@ class App extends Component {
   }
 
   renderMarker = (marker, i) => (
-    <MapView.Marker key={i} coordinate={marker.coordinate}>
-      <View style={styles.markerWrap}>
-        <View style={styles.ring} />
-        <View style={styles.marker} />
-      </View>
-    </MapView.Marker>
+    <Marker key={i} coordinate={marker.coordinate} />
   )
 
   renderCard = (marker, i) => (
-    <TouchableOpacity style={styles.card} key={i} onPress={() => this.centerMap(marker)}>
-      <Image source={marker.image} style={styles.cardImage} resizeMode="cover" />
-      <View style={styles.textContent}>
-        <Text numberOfLines={1} style={styles.cardtitle}>{marker.title}</Text>
-        <Text numberOfLines={1} style={styles.cardDescription}>
-          {marker.description}
-        </Text>
-      </View>
-    </TouchableOpacity>
+    <Card key={i} marker={marker} centerMap={this.centerMap} />
   )
 
   render() {
