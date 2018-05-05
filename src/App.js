@@ -7,7 +7,10 @@ import Marker from './components/Marker'
 import Card from './components/Card'
 import styles from './styles'
 
-class App extends Component {
+const mapStateToProps = ({region, monuments}) => ({region, monuments})
+
+@connect(mapStateToProps)
+export default class App extends Component {
   // prebaciti u akcije, menja region
   centerMap = marker => {
     this.map.animateToRegion({
@@ -35,7 +38,6 @@ class App extends Component {
         >
           {this.props.monuments.map(this.renderMarker)}
         </MapView>
-
         <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}
@@ -48,9 +50,3 @@ class App extends Component {
     )
   }
 }
-
-const mapStateToProps = ({region, monuments}) => ({
-  region, monuments
-})
-
-export default connect(mapStateToProps)(App)
