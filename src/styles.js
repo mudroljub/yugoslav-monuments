@@ -10,7 +10,7 @@ export default StyleSheet.create({
   },
   scrollView: {
     position: "absolute",
-    bottom: 30,
+    bottom: 5,
     left: 0,
     right: 0,
     paddingVertical: 10,

@@ -1,41 +1,2738 @@
-[{
-  "coordinate": {
-    "latitude": 45.524548,
-    "longitude": -122.6749817
+[
+  {
+    "title": "Ada",
+    "place_id": "ChIJT4dljqXIREcRrayibRdvZC8",
+    "info": "http://www.spomenikdatabase.org/ada",
+    "type": "kompleks",
+    "image": "http://static.wixstatic.com/media/e73a14_6e6c61d7bfb2409ba8bca40d48d87e76~mv2.jpg_srz_581_427_85_22_0.50_1.20_0.00_jpg_srz",
+    "coordinate": {
+      "latitude": 45.7965083,
+      "longitude": 20.134830400000055
+    }
   },
-  "title": "Best Place",
-  "description": "This is the best place in Portland",
-  "image": {
-    "uri": "https://i.imgur.com/sNam9iJ.jpg"
-  }
-}, {
-  "coordinate": {
-    "latitude": 45.524698,
-    "longitude": -122.6655507
+  {
+    "title": "Adaševci",
+    "description": "Spomen-park Sremski front",
+    "coordinate": {
+      "latitude": 45.049869,
+      "longitude": 19.1821549
+    },
+    "info": "http://www.spomenici.heritage.gov.rs/latitude/nkd/pregled/sremski_front",
+    "type": "kompleks",
+    "image": "http://www.spomenici.heritage.gov.rs/files/nkd/Adasevci,_Spomen_obelezje_Sremski_front_-_Adasevci_066.JPG",
+    "place_id": "ChIJuR_fNemFW0cRSzpM68TkkFo"
   },
-  "title": "Second Best Place",
-  "description": "This is the second best place in Portland",
-  "image": {
-    "uri": "https://i.imgur.com/N7rlQYt.jpg"
-  }
-}, {
-  "coordinate": {
-    "latitude": 45.5230786,
-    "longitude": -122.6701034
+  {
+    "title": "Aleksinac",
+    "coordinate": {
+      "latitude": 43.534908,
+      "longitude": 21.71153
+    },
+    "image": "http://www.milivojomorac.edu.rs/images/2015/8-FOTOKONKURS/11aleksinac/7.jpg",
+    "type": "spomenik"
   },
-  "title": "Third Best Place",
-  "description": "This is the third best place in Portland",
-  "image": {
-    "uri": "https://i.imgur.com/UDrH0wm.jpg"
-  }
-}, {
-  "coordinate": {
-    "latitude": 45.521016,
-    "longitude": -122.6561917
+  {
+    "title": "Andrijevica",
+    "coordinate": {
+      "latitude": 42.7375,
+      "longitude": 19.7864821
+    },
+    "place_id": "ChIJIU9rGjSPUhMRTV1XspGHicg",
+    "info": "http://www.spomenikdatabase.org/andrijevica",
+    "type": "kompleks",
+    "image": "http://static.wixstatic.com/media/e73a14_e78ea75315c8483183113fed0ec313e8~mv2.jpg"
   },
-  "title": "Fourth Best Place",
-  "description": "This is the fourth best place in Portland",
-  "image": {
-    "uri": "https://i.imgur.com/Ka8kNST.jpg"
+  {
+    "title": "Aradac, Zrenjanin",
+    "type": "spomenik",
+    "place_id": "ChIJ4ZCzVKveWkcRW_TZdateM7I",
+    "image": "http://www.listzrenjanin.com/wp-content/uploads/2016/03/03-zd-20160325-aradac-spomenik.jpg",
+    "coordinate": {
+      "latitude": 45.37993989999999,
+      "longitude": 20.297167400000035
+    }
+  },
+  {
+    "title": "Avala",
+    "coordinate": {
+      "latitude": 44.6888044,
+      "longitude": 20.51406559999998
+    },
+    "info": "http://www.spomenikdatabase.org/avala",
+    "type": "kompleks",
+    "place_id": "ChIJl1fINUV0WkcRjPUF54Jp8zA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Avala_soviet.jpg/200px-Avala_soviet.jpg"
+  },
+  {
+    "title": "Baćina",
+    "description": "Spomenik palim borcima NOB-a",
+    "coordinate": {
+      "latitude": 43.0681677,
+      "longitude": 17.42451189999997
+    },
+    "place_id": "ChIJhyOZa3EHSxMRD38EOwOHjNo",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Partizanski_spomenik%2C_Ba%C4%87ina_00186.jpg/200px-Partizanski_spomenik%2C_Ba%C4%87ina_00186.jpg"
+  },
+  {
+    "title": "Bajina Bašta",
+    "description": "Spomenik Dušanu Jerkoviću",
+    "coordinate": {
+      "latitude": 43.970127,
+      "longitude": 19.568981
+    },
+    "info": "http://www.spomenikdatabase.org/kragujevac",
+    "type": "spomenik",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/logo-oto-bajina-b-dusan.500x360.jpg"
+  },
+  {
+    "title": "Bajmok",
+    "description": "Baklja sećanja",
+    "coordinate": {
+      "latitude": 45.967639,
+      "longitude": 19.424128
+    },
+    "image": "http://www.skulpture-srbija.com/media/skulpture/ana-beslic-06.500x360.jpg",
+    "type": "spomenik",
+    "info": "http://www.skulpture-srbija.com/skulpture/baklja-secanja-68/"
+  },
+  {
+    "title": "Barutana",
+    "description": "Spomenik palim borcima Lješanske nahije",
+    "coordinate": {
+      "latitude": 42.38333333333333,
+      "longitude": 19.133333333333333
+    },
+    "info": "http://www.spomenikdatabase.org/barutana",
+    "type": "kompleks",
+    "image": "http://farm4.static.flickr.com/3163/3080507092_68b04c0233.jpg"
+  },
+  {
+    "title": "Batina",
+    "description": "Memorijalni kompleks Batinska bitka",
+    "coordinate": {
+      "latitude": 45.85459399999999,
+      "longitude": 18.849317400000018
+    },
+    "place_id": "ChIJoxYKuT_TXEcRoa0Ysiwb4Io",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Batina1.jpg/200px-Batina1.jpg"
+  },
+  {
+    "title": "Bečej",
+    "place_id": "ChIJH3_OxZozW0cRjDaJwO5rdpM",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-streljanim-borcima-nor-a-277/",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/kis-julijana-spomnik-becej.500x360.jpg",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 45.6162764,
+      "longitude": 20.033698800000025
+    }
+  },
+  {
+    "title": "Begunje",
+    "coordinate": {
+      "latitude": 46.3764939,
+      "longitude": 14.200332200000048
+    },
+    "info": "http://www.spomenikdatabase.org/begunje",
+    "type": "kompleks",
+    "place_id": "ChIJ4yUSoMWXekcRCBLDPUtNNNA",
+    "image": "http://www.radolca.si/db/radolca/image/slike_v_modulih/galleryitem/1761_file.jpg"
+  },
+  {
+    "title": "Bela Crkva",
+    "coordinate": {
+      "latitude": 44.3938944,
+      "longitude": 19.47940349999999
+    },
+    "info": "http://www.spomenikdatabase.org/bela-crkva",
+    "place_id": "ChIJKQ1vmZ2CWUcRPDxyZiGDeqA",
+    "type": "kompleks",
+    "image": "http://4.bp.blogspot.com/-EzjWknhdii8/U2ucHAAQVdI/AAAAAAAACII/PU6avGjr5JY/s1600/1971-BelaCrkva.jpg"
+  },
+  {
+    "title": "Beočin",
+    "description": "Spomenik palim borcima",
+    "coordinate": {
+      "latitude": 45.201744,
+      "longitude": 19.720869
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Spomenik_borcima_NOB_u_Beo%C4%8Dinu.JPG/200px-Spomenik_borcima_NOB_u_Beo%C4%8Dinu.JPG",
+    "type": "spomenik"
+  },
+  {
+    "title": "Beograd",
+    "description": "Poziv na ustanak",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/d/da/Spomenik_Poziv_na_Ustanak_Beograd.jpg/200px-Spomenik_Poziv_na_Ustanak_Beograd.jpg",
+    "place_id": "ChIJ--VOUxZwWkcRHlTGqWAr0Vc",
+    "coordinate": {
+      "latitude": 44.788514,
+      "longitude": 20.4525797
+    }
+  },
+  {
+    "title": "Beograd",
+    "description": "Spomenik palim obalskim radnicima",
+    "coordinate": {
+      "latitude": 44.8159847,
+      "longitude": 20.44964809999999
+    },
+    "place_id": "ChIJK3WgDlJlWkcRfSmEunRHKqg",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/e/ee/Spomenikobalskomradniku.jpeg/200px-Spomenikobalskomradniku.jpeg"
+  },
+  {
+    "title": "Beograd",
+    "description": "Spomenik Moše Pijade",
+    "place_id": "ChIJwZdysrF6WkcRb2mXOq_d9Cs",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Resize_of_Mosa_Pijade_ispred_Politike.jpg/200px-Resize_of_Mosa_Pijade_ispred_Politike.jpg",
+    "coordinate": {
+      "latitude": 44.8152431,
+      "longitude": 20.465163500000017
+    }
+  },
+  {
+    "title": "Beograd",
+    "description": "Groblje oslobodilaca Beograda",
+    "coordinate": {
+      "latitude": 44.8111263,
+      "longitude": 20.4854196
+    },
+    "place_id": "ChIJYwTzFZd6WkcRTque7UnwWnY",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Zena_heroj_detalj.JPG/200px-Zena_heroj_detalj.JPG",
+    "info": "https://sr.wikipedia.org/wiki/%D0%93%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D0%BE%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D0%BB%D0%B0%D1%86%D0%B0_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D0%B0_1944."
+  },
+  {
+    "title": "Beograd",
+    "description": "Spomenik obešenima na Terazijama",
+    "coordinate": {
+      "latitude": 44.8123528,
+      "longitude": 20.461647200000016
+    },
+    "place_id": "ChIJ0Z25Qq56WkcRQoSsseYykP4",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BE%D0%B1%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%BC%D0%B0_%D0%BD%D0%B0_%D0%A2%D0%B5%D1%80%D0%B0%D0%B7%D0%B8%D1%98%D0%B0%D0%BC%D0%B0",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Spomenik_obe%C5%A1enim_rodoljubima_1941_u_Beogradu.JPG/200px-Spomenik_obe%C5%A1enim_rodoljubima_1941_u_Beogradu.JPG"
+  },
+  {
+    "title": "Beograd, Banovo Brdo",
+    "description": "Spomenik palim borcima Čukarice",
+    "coordinate": {
+      "latitude": 44.7802301,
+      "longitude": 20.4169938
+    },
+    "place_id": "ChIJNWikvdFvWkcRpfToE9Lyd1A",
+    "type": "spomenik",
+    "image": "http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/11950720_1027266140640083_1754465047_n.jpg"
+  },
+  {
+    "title": "Beograd, Dorćol",
+    "description": "Menora u plamenu (Spomenik jevrejskim žrtvama genocida)",
+    "type": "spomenik",
+    "place_id": "ChIJGZntQDFlWkcRdAOimGhJpRI",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Spomenik_jevrejskim_%C5%BErtvama_nacisti%C4%8Dkog_genocida_Beograd_%281%29.JPG/200px-Spomenik_jevrejskim_%C5%BErtvama_nacisti%C4%8Dkog_genocida_Beograd_%281%29.JPG",
+    "coordinate": {
+      "latitude": 44.8304345,
+      "longitude": 20.45745260000001
+    }
+  },
+  {
+    "title": "Beograd, Kalemegdan",
+    "description": "Grobnica narodnih heroja",
+    "coordinate": {
+      "latitude": 44.8219174,
+      "longitude": 20.448890600000027
+    },
+    "place_id": "ChIJk5Zm10hlWkcRz14goHaiwyo",
+    "info": "https://sr.wikipedia.org/wiki/%D0%93%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D0%B0_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D1%85_%D1%85%D0%B5%D1%80%D0%BE%D1%98%D0%B0_%D0%BD%D0%B0_%D0%9A%D0%B0%D0%BB%D0%B5%D0%BC%D0%B5%D0%B3%D0%B4%D0%B0%D0%BD%D1%83",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/%D0%98%D0%B2%D0%B0%D0%BD%2C_%D0%82%D1%83%D1%80%D0%BE%2C_%D0%98%D0%B2%D0%BE_%D0%9B%D0%BE%D0%BB%D0%B0%2C_%D0%9C%D0%BE%D1%88%D0%B0.jpg/200px-%D0%98%D0%B2%D0%B0%D0%BD%2C_%D0%82%D1%83%D1%80%D0%BE%2C_%D0%98%D0%B2%D0%BE_%D0%9B%D0%BE%D0%BB%D0%B0%2C_%D0%9C%D0%BE%D1%88%D0%B0.jpg"
+  },
+  {
+    "title": "Bihać",
+    "description": "Djevojka sa Une",
+    "coordinate": {
+      "latitude": 44.813738,
+      "longitude": 15.870810399999982
+    },
+    "type": "spomenik",
+    "place_id": "ChIJZfLmDmxAYUcR710unkN4Dwo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Djevojka_sa_Une%2C_Bihac%2C_2006.jpg/200px-Djevojka_sa_Une%2C_Bihac%2C_2006.jpg"
+  },
+  {
+    "title": "Bihać",
+    "description": "Spomen-park Garavice",
+    "coordinate": {
+      "latitude": 44.8222371,
+      "longitude": 15.840212400000041
+    },
+    "info": "http://www.spomenikdatabase.org/bihac",
+    "type": "kompleks",
+    "place_id": "ChIJAZKX7bJBYUcRGUAlny7yafE",
+    "image": "http://1.bp.blogspot.com/-N7fwpy9TH-Q/U2ucFv-_n_I/AAAAAAAACHw/lMAPo3_rPlM/s1600/1969-81-Bihac.jpg"
+  },
+  {
+    "title": "Bihać",
+    "description": "Muzej Prvog zasjedanja AVNOJ-a",
+    "place_id": "ChIJ6WzgoWtAYUcRgn8sMelsGG8",
+    "type": "muzej",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bihac_AVNOJ_Museum.jpg/200px-Bihac_AVNOJ_Museum.jpg",
+    "coordinate": {
+      "latitude": 44.8127485,
+      "longitude": 15.86806649999994
+    }
+  },
+  {
+    "title": "Bitola",
+    "description": "Spomenik na Revolucijata",
+    "coordinate": {
+      "latitude": 41.030413,
+      "longitude": 21.3355047
+    },
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Spomenik_na_Revolucijata_vo_Bitola.JPG/200px-Spomenik_na_Revolucijata_vo_Bitola.JPG"
+  },
+  {
+    "title": "Bjelovar",
+    "description": "Spomen-park Borik",
+    "coordinate": {
+      "latitude": 45.9071102,
+      "longitude": 16.838470700000016
+    },
+    "info": "https://hr.wikipedia.org/wiki/Spomen-park_Borik",
+    "type": "kompleks",
+    "place_id": "ChIJT_j4_3E2ZkcRBTNg3G9tOF0",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Bakicev_Bjelovarac_-_Borik_2010.jpg/200px-Bakicev_Bjelovarac_-_Borik_2010.jpg"
+  },
+  {
+    "title": "Bojčinska šuma",
+    "description": "Spomenik prvoj borbi protiv ustaša",
+    "coordinate": {
+      "latitude": 44.726228,
+      "longitude": 20.163447
+    },
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%91%D0%BE%D1%98%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B0_%D0%A8%D1%83%D0%BC%D0%B0.jpg/200px-%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%91%D0%BE%D1%98%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B0_%D0%A8%D1%83%D0%BC%D0%B0.jpg"
+  },
+  {
+    "title": "Botun",
+    "description": "Spomenik ustanku",
+    "coordinate": {
+      "latitude": 41.278694,
+      "longitude": 20.783667
+    },
+    "info": "http://www.spomenikdatabase.org/botun",
+    "type": "kompleks"
+  },
+  {
+    "title": "Bratunac",
+    "coordinate": {
+      "latitude": 44.18333333333333,
+      "longitude": 19.316666666666666
+    },
+    "place_id": "ChIJ9VbPvwoKWUcRWSakbhYoUno",
+    "info": "http://www.spomenikdatabase.org/bratunac",
+    "type": "kompleks",
+    "image": "https://mw2.google.com/mw-panoramio/photos/medium/19576345.jpg"
+  },
+  {
+    "title": "Bravsko",
+    "coordinate": {
+      "latitude": 44.549028,
+      "longitude": 16.581778
+    },
+    "image": "http://2.bp.blogspot.com/-jfjH7TdPZgw/UsuTue1wpwI/AAAAAAAANyE/KwH-87hSdMs/s640/Bravsko+-+Spomneik+NOB+2.jpg",
+    "info": "http://www.spomenikdatabase.org/bravsko",
+    "type": "kompleks"
+  },
+  {
+    "title": "Brezovica",
+    "description": "Spomenik Šarplaninskom odredu",
+    "coordinate": {
+      "latitude": 42.219778,
+      "longitude": 20.997
+    },
+    "info": "http://www.spomenikdatabase.org/brezovica",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Spomenik_iz_NOB-a_na_Brezovici.jpg"
+  },
+  {
+    "title": "Brštica, Krupanj",
+    "description": "Spomen-kompleks Stolice",
+    "coordinate": {
+      "latitude": 44.403417,
+      "longitude": 19.3215
+    },
+    "info": "http://www.spomenikdatabase.org/brstica",
+    "type": "kompleks",
+    "page_id": "ChIJXS8CXXt6WUcRbSDjijB_dMA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Spomen-kompleks_Stolice_006.jpg/200px-Spomen-kompleks_Stolice_006.jpg"
+  },
+  {
+    "title": "Brzeće",
+    "info": "http://www.spomenikdatabase.org/brzece",
+    "type": "kompleks",
+    "place_id": "ChIJpfJrCwkWVkcRXWhBUM_jwcw",
+    "image": "http://urviskg.rs/wp-content/uploads/2015/07/spomenik-mramor.jpg",
+    "coordinate": {
+      "latitude": 43.27766949999999,
+      "longitude": 20.875782699999945
+    }
+  },
+  {
+    "title": "Čačak",
+    "description": "Спомен-парк борбе и победе",
+    "coordinate": {
+      "latitude": 43.8763234,
+      "longitude": 20.334712800000034
+    },
+    "info": "http://www.spomenikdatabase.org/cacak",
+    "place_id": "ChIJ79pRBDFyV0cRax8euGH0CVo",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B6%D1%80%D1%82%D0%B2%D0%B0%D0%BC%D0%B0_%D1%84%D0%B0%D1%88%D0%B8%D0%B7%D0%BC%D0%B0-%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BF%D0%B0%D1%80%D0%BA_%D0%B1%D0%BE%D1%80%D0%B1%D0%B5_%D0%B8_%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B5_%D1%83_%D0%A7%D0%B0%D1%87%D0%BA%D1%83.JPG/200px-%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B6%D1%80%D1%82%D0%B2%D0%B0%D0%BC%D0%B0_%D1%84%D0%B0%D1%88%D0%B8%D0%B7%D0%BC%D0%B0-%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BF%D0%B0%D1%80%D0%BA_%D0%B1%D0%BE%D1%80%D0%B1%D0%B5_%D0%B8_%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B5_%D1%83_%D0%A7%D0%B0%D1%87%D0%BA%D1%83.JPG"
+  },
+  {
+    "title": "Čenej",
+    "coordinate": {
+      "latitude": 45.323139,
+      "longitude": 19.829139
+    },
+    "info": "http://www.spomenikdatabase.org/cenej",
+    "type": "kompleks",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/radovanovic-pavle-cenej.500x360.jpg"
+  },
+  {
+    "title": "Cres",
+    "place_id": "ChIJ5XThJJAUY0cReJCFhkXxm-M",
+    "type": "spomenik",
+    "image": "http://ineco.posluh.hr/pgz/spomenici_nob/galerija/cres-losinj/10.jpg",
+    "coordinate": {
+      "latitude": 44.9603,
+      "longitude": 14.41036269999995
+    }
+  },
+  {
+    "title": "Črni Kal",
+    "coordinate": {
+      "latitude": 45.553333,
+      "longitude": 13.872583
+    },
+    "info": "http://www.spomenikdatabase.org/crni-kal",
+    "type": "kompleks",
+    "image": "http://static.wixstatic.com/media/e73a14_511c14ecec0d4afb8c34b64b1dffa497~mv2.jpg_srz_457_288_85_22_0.50_1.20_0.00_jpg_srz"
+  },
+  {
+    "title": "Danilovgrad",
+    "description": "Spomenik palim borcima",
+    "coordinate": {
+      "latitude": 42.5530711,
+      "longitude": 19.10569529999998
+    },
+    "place_id": "ChIJKYpBNh28TRMRoQl-aeYsr0A",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Danilovgrad.jpg/200px-Danilovgrad.jpg"
+  },
+  {
+    "title": "Dolenji Novaki, Cerkno",
+    "description": "Partizanska bolnica Franja",
+    "type": "kompleks",
+    "place_id": "ChIJ3UIABofgekcRYM7nZqrknEE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Franja-vhod-16-9-7.jpg/200px-Franja-vhod-16-9-7.jpg",
+    "coordinate": {
+      "latitude": 46.0008544,
+      "longitude": 14.018473500000027
+    }
+  },
+  {
+    "title": "Donja Gradina",
+    "description": "Spomen područje Donja Gradina",
+    "coordinate": {
+      "latitude": 45.2704508,
+      "longitude": 16.930960700000014
+    },
+    "place_id": "ChIJkc0smr4VZ0cRXiBWu4_E6aA",
+    "type": "kompleks"
+  },
+  {
+    "title": "Donja Trnova",
+    "description": "Partizansko spomen-groblje",
+    "coordinate": {
+      "latitude": 44.66759889999999,
+      "longitude": 19.099244999999996
+    },
+    "place_id": "ChIJO0lpFQnkW0cRUrDZHkaExvU",
+    "type": "kompleks",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D1%83_%D0%94%D0%BE%D1%9A%D0%BE%D1%98_%D0%A2%D1%80%D0%BD%D0%BE%D0%B2%D0%B8"
+  },
+  {
+    "title": "Donji Miholjac",
+    "description": "Spomenik slobodi ",
+    "coordinate": {
+      "latitude": 45.761944,
+      "longitude": 18.161611
+    },
+    "info": "http://www.spomenikdatabase.org/donji-miholjac",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Spomenik_slobodi_Donji_Miholjac.jpg/200px-Spomenik_slobodi_Donji_Miholjac.jpg"
+  },
+  {
+    "title": "Dotršćina",
+    "coordinate": {
+      "latitude": 45.8422898,
+      "longitude": 16.02822119999996
+    },
+    "info": "http://www.spomenikdatabase.org/dotrscina",
+    "type": "kompleks",
+    "place_id": "ChIJpRWDSYvXZUcR2s8kAYsDDlY",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dotrscina_spomenik_2.jpg/200px-Dotrscina_spomenik_2.jpg"
+  },
+  {
+    "title": "Draginac",
+    "description": "Spomenik i kosturnica streljanim žrtvama u Dragincu",
+    "coordinate": {
+      "latitude": 44.504778,
+      "longitude": 19.415944
+    },
+    "info": "http://www.spomenikdatabase.org/draginac",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Spomenik_i_kosturnica%2C_Draginac_012.jpg/200px-Spomenik_i_kosturnica%2C_Draginac_012.jpg"
+  },
+  {
+    "title": "Dramalj",
+    "coordinate": {
+      "latitude": 45.195192,
+      "longitude": 14.67059
+    },
+    "info": "http://spomeniki.blogspot.rs/2013/12/dramalj-spomenik-nob.html",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Spomenik_Z_Car_Dramalj_0907.jpg/200px-Spomenik_Z_Car_Dramalj_0907.jpg"
+  },
+  {
+    "title": "Dražgoše",
+    "description": "Spomenik Dražgoški bitki",
+    "type": "kompleks",
+    "place_id": "ChIJSdXB7wfAekcRSFXHD_X_HX8",
+    "image": "https://c1.staticflickr.com/1/286/19019248254_1856a46549_b.jpg",
+    "info": "http://www.spomenikdatabase.org/drazgose",
+    "coordinate": {
+      "latitude": 46.252384,
+      "longitude": 14.166419099999985
+    }
+  },
+  {
+    "title": "Drča, Vrhnika",
+    "place_id": "ChIJXbcAZl3WekcRrrP5bTpWsBQ",
+    "type": "spomenik",
+    "image": "http://kraji.eu/PICTURES/osrednjeslovenska/vrhnika_z_okolico/drca_spomenik_padlim_nob/IMG_4852_vrhnika_drca_spomenik_padlim_nob_jugovzhodna_stran_big.jpg",
+    "coordinate": {
+      "latitude": 45.95649299999999,
+      "longitude": 14.291234199999963
+    }
+  },
+  {
+    "title": "Drežnica",
+    "description": "Spomenik ustanka u Drežnici",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 45.1363629,
+      "longitude": 15.0893979
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Dreznica_-_Spomenik_NOB.jpg"
+  },
+  {
+    "title": "Drvar",
+    "coordinate": {
+      "latitude": 44.36666666666667,
+      "longitude": 16.366666666666667
+    },
+    "info": "http://www.spomenikdatabase.org/drvar",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/hr/thumb/c/ca/Spomenik_Drvar.jpg/200px-Spomenik_Drvar.jpg"
+  },
+  {
+    "title": "Foča",
+    "coordinate": {
+      "latitude": 43.5074094,
+      "longitude": 18.7706522
+    },
+    "image": "http://www.thebohemianblog.com/wp-content/uploads/2016/09/Yugoslav-Spomeniks-Bosnia-Foc%CC%8Ca-NEW-1.jpg",
+    "type": "spomenik"
+  },
+  {
+    "title": "Futog",
+    "description": "Spomenik borcima NOB",
+    "coordinate": {
+      "latitude": 45.25649639999999,
+      "longitude": 19.843029
+    },
+    "type": "spomenik",
+    "place_id": "ChIJ93g1IGgQW0cRnjxhKcQOB0c",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Spomenik_borcima_NOB_u_Futogu.JPG/200px-Spomenik_borcima_NOB_u_Futogu.JPG"
+  },
+  {
+    "title": "Gajdobra",
+    "description": "Spomenik ruka (blizu sela Nova Gajdobra)",
+    "place_id": "ChIJm7nlYA5lW0cRpJCPnCaqqbI",
+    "info": "http://www.skulpture-srbija.com/skulpture/zelja-766/",
+    "image": "https://s3.amazonaws.com/gs-geo-images/b7540ac2-6e14-4488-820c-3113fa3fb2ff_l.jpg",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 45.3260608,
+      "longitude": 19.43305459999999
+    }
+  },
+  {
+    "title": "Gevgelija",
+    "coordinate": {
+      "latitude": 41.15,
+      "longitude": 22.5
+    },
+    "info": "http://www.spomenikdatabase.org/gevgelija",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sloboda_Vardarski_Rid.jpg"
+  },
+  {
+    "title": "Glamoč",
+    "description": "Spomenik Ivu Loli Ribaru",
+    "coordinate": {
+      "latitude": 44.0725278,
+      "longitude": 16.8190934
+    },
+    "info": "http://www.spomenikdatabase.org/glamoc",
+    "type": "kompleks",
+    "image": "https://mw2.google.com/mw-panoramio/photos/medium/86279073.jpg"
+  },
+  {
+    "title": "Gligino Brdo",
+    "coordinate": {
+      "latitude": 45.142335,
+      "longitude": 16.496469
+    },
+    "info": "http://www.spomenikdatabase.org/gligino-brdo",
+    "type": "kompleks",
+    "image": "http://static.wixstatic.com/media/e73a14_1f6c645f307c48ea845945f2e81b4b63~mv2_d_5126_2550_s_4_2.jpg_srz_980_488_85_22_0.50_1.20_0.00_jpg_srz"
+  },
+  {
+    "title": "Golubovci",
+    "coordinate": {
+      "latitude": 42.31666666666667,
+      "longitude": 19.216666666666665
+    },
+    "info": "http://www.spomenikdatabase.org/golubovci",
+    "type": "kompleks",
+    "image": "http://static.wixstatic.com/media/e73a14_8df1169e9b374683bc1c1f41e2b3f541~mv2_d_3840_2160_s_2.jpg/v1/fill/w_980,h_553,al_c,q_85,usm_0.66_1.00_0.01/e73a14_8df1169e9b374683bc1c1f41e2b3f541~mv2_d_3840_2160_s_2.webp"
+  },
+  {
+    "title": "Gonjače, Nova Gorica",
+    "description": "Spomenik borcima Gorice i Beneškog kraja",
+    "type": "kompleks",
+    "place_id": "ChIJZwp6Pymre0cRUcxcFK49RHg",
+    "image": "http://thumbs.geago.si/data/RecordFieldThumbnail.ashx?ProfileID=Luizem@Luz&rid=29664@lay_images&size=1280,0&FieldID=Data&offsetField=ThumbnailOffset&centerOffset=0",
+    "coordinate": {
+      "latitude": 46.01008969999999,
+      "longitude": 13.561773200000061
+    }
+  },
+  {
+    "title": "Gornji Jelovac",
+    "coordinate": {
+      "latitude": 45.05,
+      "longitude": 16.7
+    },
+    "info": "http://www.spomenikdatabase.org/gornji-jelovac",
+    "type": "kompleks",
+    "image": "http://static.wixstatic.com/media/e73a14_650c672630ad4f9d9c4d082077fa79eb~mv2.jpg/v1/fill/w_587,h_352,al_c,q_80,usm_0.66_1.00_0.01/e73a14_650c672630ad4f9d9c4d082077fa79eb~mv2.webp"
+  },
+  {
+    "title": "Gornji Milanovac",
+    "description": "Spomen-park Brdo mira",
+    "place_id": "ChIJy776jg1qV0cR7AWSH-jjg1c",
+    "type": "kompleks",
+    "image": "http://www.togm.org.rs/sta/spomenici/bm2v.jpg",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BF%D0%B0%D1%80%D0%BA_%D0%91%D1%80%D0%B4%D0%BE_%D0%BC%D0%B8%D1%80%D0%B0",
+    "coordinate": {
+      "latitude": 44.02947869999999,
+      "longitude": 20.454008199999976
+    }
+  },
+  {
+    "title": "Grahovo",
+    "description": "Spomenik Save Kovačevića",
+    "coordinate": {
+      "latitude": 42.6508729,
+      "longitude": 18.672229600000037
+    },
+    "type": "kompleks",
+    "place_id": "ChIJOxUXaeROTBMRwm3QZdKNj70",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BA%D0%B0_%D0%B8_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5_(%D0%93%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%BE)",
+    "image": "http://www.masina.rs/wp-content/uploads/2016/05/Grahovo.jpg"
+  },
+  {
+    "title": "Grmeč",
+    "coordinate": {
+      "latitude": 44.6872721,
+      "longitude": 16.437619199999972
+    },
+    "info": "http://www.spomenikdatabase.org/grmec",
+    "type": "kompleks",
+    "place_id": "ChIJbXqFfd7nYEcRoqbIRofhJkg",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/e/e6/Spomenik_NOB_na_Grme%C4%8Du.jpg"
+  },
+  {
+    "title": "Ilirska Bistrica",
+    "coordinate": {
+      "latitude": 45.56869409999999,
+      "longitude": 14.24024559999998
+    },
+    "info": "http://www.spomenikdatabase.org/ilirska-bistrica",
+    "type": "kompleks",
+    "place_id": "ChIJj0avisa0ZEcRqndGFdp3u58",
+    "image": "http://www.jankempenaers.info/images/works/08.jpg"
+  },
+  {
+    "title": "Iriški Venac, Fruška gora",
+    "description": "Spomenik Sloboda",
+    "coordinate": {
+      "latitude": 45.158333,
+      "longitude": 19.86166700000001
+    },
+    "type": "spomenik",
+    "place_id": "ChIJGZJiQjIEW0cRPw-3XQRUV-w",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%A1%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sloboda_monument_%28detail%29.jpg/200px-Sloboda_monument_%28detail%29.jpg"
+  },
+  {
+    "title": "Ivanjica",
+    "description": "Spomenik-mozaik Revoluciji",
+    "coordinate": {
+      "latitude": 43.5815752,
+      "longitude": 20.22919509999997
+    },
+    "type": "spomenik",
+    "place_id": "ChIJF1BygZm9V0cRIT22-ecqJbQ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/%D0%94%D0%B5%D0%BE_%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%BE%D0%B3_%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0_%D0%98%D0%B2%D0%B0%D1%9A%D0%B8%D1%86%D0%B5%2C_%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA-%D0%BC%D0%BE%D0%B7%D0%B0%D0%B8%D0%BA_%E2%80%9E%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B8%E2%80%9C%2C_1957._%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0%2C_%D0%82%D0%BE%D1%80%D1%92%D0%B5_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D1%98%D0%B5%D0%B2%D0%B8%D1%9B_%D0%9A%D1%83%D0%BD%2C_1.JPG/200px-thumbnail.jpg"
+  },
+  {
+    "title": "Jablanica",
+    "description": "Spomen-kompleks Bitka na Neretvi",
+    "coordinate": {
+      "latitude": 43.6542344,
+      "longitude": 17.760912200000007
+    },
+    "place_id": "ChIJI234ue1eX0cRRqs-xfpdgJg",
+    "type": "kompleks",
+    "info": "https://bs.wikipedia.org/wiki/Memorijalni_kompleks_u_Jablanici",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/The_%22bridge%22_Tito_built_to_fool_the_Germans_in_1943.jpg/200px-The_%22bridge%22_Tito_built_to_fool_the_Germans_in_1943.jpg"
+  },
+  {
+    "title": "Jabuka (Pančevo)",
+    "coordinate": {
+      "latitude": 44.9288011,
+      "longitude": 20.633799400000044
+    },
+    "info": "http://www.spomenikdatabase.org/jabuka",
+    "type": "kompleks",
+    "place_id": "ChIJpYHtw1iHWkcRyPW-bVT6Z4o",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Jakuba_Stradiste.JPG/200px-Jakuba_Stradiste.JPG"
+  },
+  {
+    "title": "Jabukovac (Negotin)",
+    "coordinate": {
+      "latitude": 44.3383948,
+      "longitude": 22.346639900000014
+    },
+    "place_id": "ChIJKdg8T6rcU0cRbtYxfhWIBAE",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Jabukovac.jpg"
+  },
+  {
+    "title": "Jadovno, Gospić",
+    "description": "Spomen-područje Jadovno",
+    "place_id": "ChIJ0TkM14MsYkcRURDbMZHhu6g",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Jadovno_na_Velebitu.jpg/200px-Jadovno_na_Velebitu.jpg",
+    "coordinate": {
+      "latitude": 44.544933,
+      "longitude": 15.220608099999936
+    }
+  },
+  {
+    "title": "Jajce",
+    "description": "Muzej II zasjedanja AVNOJ-a",
+    "place_id": "ChIJ_YWhA-01XkcRXPjGI8A3zws",
+    "type": "muzej",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/6/6c/Bista_Mose_Pijade_u_Jajcu%2C_kod_Muzeja_AVNOJa.JPG/200px-Bista_Mose_Pijade_u_Jajcu%2C_kod_Muzeja_AVNOJa.JPG",
+    "info": "http://muzejavnoj.ba/",
+    "coordinate": {
+      "latitude": 44.3381198,
+      "longitude": 17.268242699999973
+    }
+  },
+  {
+    "title": "Jajinci",
+    "coordinate": {
+      "latitude": 44.7304796,
+      "longitude": 20.48895390000007
+    },
+    "info": "http://www.spomenikdatabase.org/jajinci",
+    "place_id": "ChIJvwq4qFpxWkcRJxT7TlO6JLA",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Spomen_park_Jajinci.jpg/200px-Spomen_park_Jajinci.jpg"
+  },
+  {
+    "title": "Jasenica",
+    "coordinate": {
+      "latitude": 44.8,
+      "longitude": 16.25
+    },
+    "info": "http://www.spomenikdatabase.org/jasenica",
+    "type": "kompleks",
+    "image": "http://static.wixstatic.com/media/e73a14_16a15b12869044aaa131ccf10d182f88~mv2.jpg/v1/fill/w_301,h_170,al_c,q_80,usm_0.66_1.00_0.01/e73a14_16a15b12869044aaa131ccf10d182f88~mv2.webp"
+  },
+  {
+    "title": "Jasenovac",
+    "description": "Kameni cvijet",
+    "info": "http://www.spomenikdatabase.org/jasenovec",
+    "type": "kompleks",
+    "place_id": "ChIJT6ocC8kVZ0cR3QCR_fTBgiQ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/KZ-Jasenovac-Denkmal-Zugang.JPG/200px-KZ-Jasenovac-Denkmal-Zugang.JPG",
+    "coordinate": {
+      "latitude": 45.2803791,
+      "longitude": 16.928368399999954
+    }
+  },
+  {
+    "title": "Jasikovac, Berane",
+    "description": "Spomenik palim za slobodu",
+    "coordinate": {
+      "latitude": 42.8506752,
+      "longitude": 19.880141500000036
+    },
+    "type": "kompleks",
+    "image": "http://1.bp.blogspot.com/-IfX3qUZjwKg/U2ucHvDqLXI/AAAAAAAACIQ/5uyJjSkyxN8/s1600/1972-77-Berane.jpg",
+    "info": "http://www.spomenikdatabase.org/berane",
+    "place_id": "ChIJvx3QHZWTUhMRJl7i55g0CUA"
+  },
+  {
+    "title": "Jelovice",
+    "coordinate": {
+      "latitude": 45.497263,
+      "longitude": 14.00375
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Jelovice%2C_spomenik.jpg/200px-Jelovice%2C_spomenik.jpg",
+    "type": "spomenik"
+  },
+  {
+    "title": "Kadinjača",
+    "coordinate": {
+      "latitude": 43.9115308,
+      "longitude": 19.741613799999982
+    },
+    "info": "http://www.spomenikdatabase.org/kadinjaca",
+    "place_id": "ChIJUzgaRazNWUcRWfUNZrfEvAc",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Kadinja%C4%8Da_Memorial_Complex%2C_U%C5%BEice%2C_Serbia._Monument_near_the_center.JPG/200px-Kadinja%C4%8Da_Memorial_Complex%2C_U%C5%BEice%2C_Serbia._Monument_near_the_center.JPG"
+  },
+  {
+    "title": "Kal nad Kanalom, Nova Gorica",
+    "place_id": "ChIJDYvCek_5ekcR62vAS6I8Emw",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 46.0814879,
+      "longitude": 13.739633300000037
+    },
+    "image": "http://static.panoramio.com/photos/large/5855462.jpg"
+  },
+  {
+    "title": "Kamenska",
+    "coordinate": {
+      "latitude": 45.43333333333333,
+      "longitude": 17.466666666666665
+    },
+    "info": "http://www.spomenikdatabase.org/kamenska",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Vojin_Baki%C4%87%2C_Spomenik_pobjedi_revolucije_naroda_Slavonije%2C_Kamenska.JPG/200px-Vojin_Baki%C4%87%2C_Spomenik_pobjedi_revolucije_naroda_Slavonije%2C_Kamenska.JPG"
+  },
+  {
+    "title": "Kampor, Rab",
+    "description": "Koncentracijski logor Rab (Spomen-područje Kampor)",
+    "type": "spomenik",
+    "place_id": "ChIJL0lh75WoY0cRF27yS9lncMc",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ASNOMmemorialcenterPelince-free.JPG/200px-ASNOMmemorialcenterPelince-free.JPG",
+    "coordinate": {
+      "latitude": 44.78223289999999,
+      "longitude": 14.713161000000014
+    }
+  },
+  {
+    "title": "Kavadarci",
+    "coordinate": {
+      "latitude": 41.4325598,
+      "longitude": 22.02274920000002
+    },
+    "place_id": "ChIJz3rk76FlVhMR71e0zf3t8xE",
+    "info": "http://www.spomenikdatabase.org/kavadarci",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/The_ossuary_monument_in_Kavadarci.jpg/200px-The_ossuary_monument_in_Kavadarci.jpg"
+  },
+  {
+    "title": "Kijevo",
+    "coordinate": {
+      "latitude": 44.012038,
+      "longitude": 16.34015
+    },
+    "image": "http://farm4.static.flickr.com/3063/3079676511_d9f20a9c2f.jpg",
+    "type": "spomenik"
+  },
+  {
+    "title": "Kikinda",
+    "description": "Spomenik palim borcima NOB",
+    "type": "spomenik",
+    "place_id": "ChIJS5G1x8PeREcRi9yd571aTtI",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Spomenik_palim_borcima_NOB-a_u_Kikindi.jpg/200px-Spomenik_palim_borcima_NOB-a_u_Kikindi.jpg",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-nob-a-828/",
+    "coordinate": {
+      "latitude": 45.83972319999999,
+      "longitude": 20.452787599999965
+    }
+  },
+  {
+    "title": "Kikinda",
+    "description": "Spomenik internircima",
+    "type": "kompleks",
+    "coordinate": {
+      "latitude": 45.831391,
+      "longitude": 20.466087
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Spomenik_internircima_u_Kikindi%2C_rad_Slobodana_Koji%C4%87a.jpg/200px-Spomenik_internircima_u_Kikindi%2C_rad_Slobodana_Koji%C4%87a.jpg",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-internircima-303/"
+  },
+  {
+    "title": "Kikinda",
+    "description": "Spomen-park Simićev salaš",
+    "type": "kompleks",
+    "place_id": "ChIJRcQnkdbZREcRftu2x8bC97c",
+    "image": "https://www.tracesofwar.com/upload/8660161219165633.jpg",
+    "coordinate": {
+      "latitude": 45.7572239,
+      "longitude": 20.402297999999973
+    }
+  },
+  {
+    "title": "Kikinda, park iza Livnice",
+    "description": "Obelisk (Spomenik Kikindskom partizanskom odredu)",
+    "type": "kompleks",
+    "place_id": "ChIJ7aTUyTrZREcRQulq9Mx6FsE",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/radenovic_dragan_123.500x360.jpg",
+    "info": "http://www.skulpture-srbija.com/skulpture/obelisk-536/",
+    "coordinate": {
+      "latitude": 45.81485149999999,
+      "longitude": 20.438560499999994
+    }
+  },
+  {
+    "title": "Knin",
+    "coordinate": {
+      "latitude": 44.03333333333333,
+      "longitude": 16.183333333333334
+    },
+    "info": "http://www.spomenikdatabase.org/knin",
+    "type": "kompleks",
+    "image": "http://photos.wikimapia.org/p/00/01/65/81/32_big.jpg"
+  },
+  {
+    "title": "Knjaževac",
+    "coordinate": {
+      "latitude": 43.5666056,
+      "longitude": 22.2517562
+    },
+    "place_id": "ChIJRZxhBflaVEcRxFpIHfNRS9g",
+    "type": "kompleks",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%BE%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D0%BB%D0%B0%D1%87%D0%BA%D0%B8%D0%BC_%D1%80%D0%B0%D1%82%D0%BE%D0%B2%D0%B8%D0%BC%D0%B0_1804-1945.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Spomen-park-3%2C_Zavi%C4%8Dajni_muzej_Knja%C5%BEevac.jpg"
+  },
+  {
+    "title": "Kočani",
+    "coordinate": {
+      "latitude": 41.9188684,
+      "longitude": 22.407109699999978
+    },
+    "info": "http://www.spomenikdatabase.org/kocani",
+    "type": "kompleks",
+    "place_id": "ChIJIyfvjReSVRMRSMIp_WZTA5c",
+    "image": "http://www.masina.rs/wp-content/uploads/2016/05/Kocani.jpg"
+  },
+  {
+    "title": "Kolašin",
+    "description": "Spomen-dom",
+    "coordinate": {
+      "latitude": 42.8240721,
+      "longitude": 19.518917099999953
+    },
+    "info": "http://www.spomenikdatabase.org/kolasin",
+    "type": "kompleks",
+    "place_id": "ChIJkV152v18TRMRW7MSWvZphpI",
+    "image": "https://s-media-cache-ak0.pinimg.com/originals/48/d0/0e/48d00ee6ce0c7e51ca784b89a651cdfb.jpg"
+  },
+  {
+    "title": "Kolašin",
+    "description": "Partizansko groblje u Brezi",
+    "coordinate": {
+      "latitude": 42.8306015,
+      "longitude": 19.521199300000035
+    },
+    "type": "kompleks",
+    "place_id": "ChIJpw7cgB19TRMRo078u_hnugE",
+    "image": "http://montenegrina.net/wp-content/uploads/2016/08/Partizansko-groblje-na-Brezi.jpg"
+  },
+  {
+    "title": "Komarna Vas",
+    "description": "Partizanska bolnišnica Zgornji Hrastnik",
+    "type": "kompleks",
+    "place_id": "ChIJYVJeG9P5ZEcRbrfjnt9XjtA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Zgornji_Hrastnik_hospital_site.JPG/200px-Zgornji_Hrastnik_hospital_site.JPG",
+    "coordinate": {
+      "latitude": 45.6773256,
+      "longitude": 15.058580699999993
+    }
+  },
+  {
+    "title": "Koprivnica",
+    "description": "Spomen područje Danica",
+    "coordinate": {
+      "latitude": 46.1869144,
+      "longitude": 16.844164099999944
+    },
+    "type": "kompleks",
+    "place_id": "ChIJH_6quXonZkcRIW2lksDtlJw",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Spomen-podru%C4%8Dje_Danica%2C_toranj_i_muzej.JPG/200px-Spomen-podru%C4%8Dje_Danica%2C_toranj_i_muzej.JPG"
+  },
+  {
+    "title": "Korenica",
+    "coordinate": {
+      "latitude": 44.666666666666664,
+      "longitude": 15.833333333333334
+    },
+    "info": "http://www.spomenikdatabase.org/korenica",
+    "type": "kompleks",
+    "image": "https://68.media.tumblr.com/tumblr_lsjm0nzE0I1r4354wo1_500.jpg"
+  },
+  {
+    "title": "Kosmaj",
+    "coordinate": {
+      "latitude": 44.46786910000001,
+      "longitude": 20.571741100000054
+    },
+    "info": "http://www.spomenikdatabase.org/kosmaj",
+    "place_id": "ChIJhYaAsWWvUEcRX1Je8ICQots",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Kosmaj_spomenik2.jpg/200px-Kosmaj_spomenik2.jpg"
+  },
+  {
+    "title": "Košute",
+    "coordinate": {
+      "latitude": 43.61666666666667,
+      "longitude": 16.683333333333334
+    },
+    "info": "http://www.spomenikdatabase.org/kosute",
+    "type": "kompleks",
+    "image": "http://static.wixstatic.com/media/e73a14_62c6030881564ae4bc42de04023c8c01~mv2.jpg/v1/fill/w_370,h_333,al_c,q_80,usm_0.66_1.00_0.01/e73a14_62c6030881564ae4bc42de04023c8c01~mv2.webp"
+  },
+  {
+    "title": "Kozara",
+    "coordinate": {
+      "latitude": 45.0171009,
+      "longitude": 16.900126999999998
+    },
+    "info": "http://www.spomenikdatabase.org/kozara",
+    "type": "kompleks",
+    "place_id": "ChIJ5yJ2GtFLZ0cR-o6myHpqWPE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/NP002_%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B8_%D0%BF%D0%B0%D1%80%D0%BA_%E2%80%9E%D0%9A%D0%BE%D0%B7%D0%B0%D1%80%D0%B0%22.jpg/200px-NP002_%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B8_%D0%BF%D0%B0%D1%80%D0%BA_%E2%80%9E%D0%9A%D0%BE%D0%B7%D0%B0%D1%80%D0%B0%22.jpg"
+  },
+  {
+    "title": "Kragujevac",
+    "description": "Spomenik streljanim đacima",
+    "place_id": "ChIJjUNpOkIhV0cRKAjT22J2nE8",
+    "info": "http://www.spomenikdatabase.org/kragujevac",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Broken_wings%2C_Kragujevac%2C_Serbia.jpg/200px-Broken_wings%2C_Kragujevac%2C_Serbia.jpg",
+    "coordinate": {
+      "latitude": 44.0160625,
+      "longitude": 20.885897999999997
+    }
+  },
+  {
+    "title": "Kragujevac",
+    "description": "Spomenik bola i prkosa",
+    "coordinate": {
+      "latitude": 44.021829,
+      "longitude": 20.884688
+    },
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-bola-i-prkosa-185/",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Kragujevac%2C_%C5%A0umarice%2C_Spomenik_bola_i_prkosa.JPG/200px-Kragujevac%2C_%C5%A0umarice%2C_Spomenik_bola_i_prkosa.JPG"
+  },
+  {
+    "title": "Kragujevac",
+    "description": "Spomenik sto za jednog",
+    "place_id": "ChIJXxocQkQhV0cRHRRvJlSCLxM",
+    "info": "http://www.spomenikdatabase.org/kragujevac",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Spomenik_Sto_za_jednog.jpg/200px-Spomenik_Sto_za_jednog.jpg",
+    "coordinate": {
+      "latitude": 44.0158552,
+      "longitude": 20.879600200000027
+    }
+  },
+  {
+    "title": "Kraljevica, Zaječar",
+    "description": "Vešala",
+    "page_id": "ChIJ5emq5T1zVEcRu_KM40Hn2_U",
+    "coordinate": {
+      "latitude": 43.8891512,
+      "longitude": 22.2649356
+    },
+    "info": "http://www.spomenikdatabase.org/zajecar",
+    "type": "kompleks",
+    "image": "http://static.wixstatic.com/media/e73a14_9f7f4703d0c544cab894173f03260330~mv2.jpg/v1/fill/w_980,h_553,al_c,q_85,usm_0.66_1.00_0.01/e73a14_9f7f4703d0c544cab894173f03260330~mv2.webp"
+  },
+  {
+    "title": "Kraljevo",
+    "description": "Spomen-park Kraljevački oktobar",
+    "coordinate": {
+      "latitude": 43.7308921,
+      "longitude": 20.6900836
+    },
+    "info": "http://www.spomenikdatabase.org/kraljevo",
+    "place_id": "ChIJKVJb1AIBV0cRxEXIFmgdtUk",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Spomen_groblje_Kraljevo_04.jpg/200px-Spomen_groblje_Kraljevo_04.jpg"
+  },
+  {
+    "title": "Kranj",
+    "description": "Spomenik Revoluciji",
+    "type": "spomenik",
+    "place_id": "ChIJHSb8MRy4ekcRhJlkM2HVAZM",
+    "coordinate": {
+      "latitude": 46.24312459999999,
+      "longitude": 14.355574700000034
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Slovenski_trg_Kranj_01.jpg/200px-Slovenski_trg_Kranj_01.jpg"
+  },
+  {
+    "title": "Kred, Kobarid",
+    "place_id": "ChIJi0qqj6VEekcRF1ExRjbaojg",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 46.2488171,
+      "longitude": 13.513399400000026
+    }
+  },
+  {
+    "title": "Kruševac",
+    "description": "Slobodište",
+    "coordinate": {
+      "latitude": 43.5625748,
+      "longitude": 21.3319123
+    },
+    "info": "http://www.spomenikdatabase.org/krusevac",
+    "place_id": "ChIJM7MWlmZ9VkcRgLrGoT0hX-8",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Slobodiste_01.jpg/200px-Slobodiste_01.jpg"
+  },
+  {
+    "title": "Kruševo",
+    "coordinate": {
+      "latitude": 41.37740429999999,
+      "longitude": 21.248333799999955
+    },
+    "info": "http://www.spomenikdatabase.org/krusevo",
+    "type": "kompleks",
+    "place_id": "ChIJd_ExLxjPVhMRDAGpR39XsdQ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Krusevo_01_%282825532671%29.jpg/200px-Krusevo_01_%282825532671%29.jpg"
+  },
+  {
+    "title": "Kumanovo",
+    "description": "Spomenik Makedonka i spomen-kosturnica",
+    "type": "kompleks",
+    "place_id": "ChIJ6UCK4tZRVBMRz_ZJnSIP--k",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Spomenik_na_Revolucijata.JPG/200px-Spomenik_na_Revolucijata.JPG",
+    "coordinate": {
+      "latitude": 42.1454554,
+      "longitude": 21.722666000000004
+    }
+  },
+  {
+    "title": "Kumrovec",
+    "description": "Titova rodna kuća i spomenik",
+    "type": "muzej",
+    "place_id": "ChIJ81aKrcCVZUcRB8g9vqaNZ74",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tito_spomenik1.JPG/200px-Tito_spomenik1.JPG",
+    "coordinate": {
+      "latitude": 46.076066,
+      "longitude": 15.6775447
+    },
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BA%D1%83%D0%BB%D0%BF%D1%82%D1%83%D1%80%D0%B0_%D0%9C%D0%B0%D1%80%D1%88%D0%B0%D0%BB_%D0%A2%D0%B8%D1%82%D0%BE_(%D0%90%D1%83%D0%B3%D1%83%D1%81%D1%82%D0%B8%D0%BD%D1%87%D0%B8%D1%9B)"
+  },
+  {
+    "title": "Labin",
+    "description": "Spomenik rudaru borcu",
+    "coordinate": {
+      "latitude": 45.095254,
+      "longitude": 14.121673
+    },
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Spomenik_NOB%2C_Labin.JPG/200px-Spomenik_NOB%2C_Labin.JPG"
+  },
+  {
+    "title": "Landovica",
+    "description": "Spomenik Bori i Ramizu",
+    "coordinate": {
+      "latitude": 42.25,
+      "longitude": 20.666666666666668
+    },
+    "info": "http://www.spomenikdatabase.org/landovica",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/5/5d/Spomenik_Bori_Vukmirovi%27u_i_Ramiyu_Sadiku.jpg"
+  },
+  {
+    "title": "Ledinci",
+    "page_id": "ChIJUdQrObwPW0cRf5C_8T93xF8",
+    "coordinate": {
+      "latitude": 45.2100426,
+      "longitude": 19.8046106
+    },
+    "image": "http://www.skulpture-srbija.com/media/skulpture/radovanovic-pavle-ledinci-1.500x360.jpg",
+    "type": "spomenik"
+  },
+  {
+    "title": "Lepoglava",
+    "description": "Spomen groblje Lepoglava",
+    "place_id": "ChIJf_xGOZTwZUcRL3WdHWYWJKA",
+    "type": "kompleks",
+    "image": "https://igx.4sqi.net/img/general/600x600/37301251_euBLGidRJGmoLqF4bX2YFxWjfQfsi5-xmRe5jzrDF2g.jpg",
+    "coordinate": {
+      "latitude": 46.2136369,
+      "longitude": 16.03175669999996
+    }
+  },
+  {
+    "title": "Leskovac",
+    "coordinate": {
+      "latitude": 42.9840761,
+      "longitude": 21.942725999999993
+    },
+    "info": "http://www.spomenikdatabase.org/leskovac",
+    "place_id": "ChIJtxSV-KSCVUcR5JYrkgLYujo",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Spomen_park_NOB%2C_Leskovac_02.jpg/200px-Spomen_park_NOB%2C_Leskovac_02.jpg"
+  },
+  {
+    "title": "Ljig",
+    "description": "Spomenik Ljiškoj borbi",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 44.225511,
+      "longitude": 20.240386
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ljig%2C_spomenici_NOB-a_011.jpg/200px-Ljig%2C_spomenici_NOB-a_011.jpg",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-ljiskoj-borbi-1941-godine-392/"
+  },
+  {
+    "title": "Ljubljana",
+    "description": "Spomenik revolucije",
+    "image": "https://c1.staticflickr.com/4/3021/2991613039_85c5a595d9_b.jpg",
+    "coordinate": {
+      "latitude": 46.051128,
+      "longitude": 14.49997
+    },
+    "type": "spomenik"
+  },
+  {
+    "title": "Ljubljana",
+    "description": "Spomenik žrtvam NOB",
+    "place_id": "ChIJXY6gGGwtZUcRmNuyWqwxZaY",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 46.0396024,
+      "longitude": 14.49946669999997
+    }
+  },
+  {
+    "title": "Ljubljana",
+    "description": "Spomenik Gramozna jama",
+    "image": "https://img.rtvslo.si/upload/zabava/taleckalingramoznajama.jpg",
+    "coordinate": {
+      "latitude": 46.074733,
+      "longitude": 14.526458
+    },
+    "type": "spomenik"
+  },
+  {
+    "title": "Ljubljana",
+    "description": "Grobnica narodnih herojev",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/0/0a/Grobnica_narodnih_heroja%2C_Ljubljana.jpg",
+    "coordinate": {
+      "latitude": 46.0515,
+      "longitude": 14.5003
+    },
+    "type": "spomenik"
+  },
+  {
+    "title": "Ljubljana",
+    "description": "Spomenik talcem žrtvam fašizma",
+    "place_id": "ChIJ5_40RXwtZUcRJC9yAYk47gg",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 46.0498641,
+      "longitude": 14.5114326
+    }
+  },
+  {
+    "title": "Ljutituk",
+    "coordinate": {
+      "latitude": 42.550456,
+      "longitude": 19.159305
+    },
+    "image": "http://i.imgur.com/5Ai2eT1.jpg",
+    "type": "spomenik"
+  },
+  {
+    "title": "Lovćenac, centar sela",
+    "place_id": "ChIJW2QVGV5SW0cR7GWtO4-BqJY",
+    "type": "spomenik",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/cetnik-milan-111.500x360.jpg",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-zrtvama-fasistickog-terora-i-30-togodisnj-116/",
+    "coordinate": {
+      "latitude": 45.68395230000001,
+      "longitude": 19.690986000000066
+    }
+  },
+  {
+    "title": "Loznica",
+    "description": "Spomenik Vladi Zečeviću",
+    "place_id": "ChIJV-MYGJxhWUcRw-Tzwsi9Zuk",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Loznica_015.jpg/200px-Loznica_015.jpg",
+    "coordinate": {
+      "latitude": 44.5311278,
+      "longitude": 19.2243469
+    }
+  },
+  {
+    "title": "Majdanpek",
+    "coordinate": {
+      "latitude": 44.416666666666664,
+      "longitude": 21.933333333333334
+    },
+    "info": "http://www.spomenikdatabase.org/majdanpek",
+    "type": "kompleks",
+    "image": "http://static.wixstatic.com/media/e73a14_398bca4023a340d8a8c6f7abfab26f95~mv2_d_3840_2160_s_2.jpg/v1/fill/w_980,h_553,al_c,q_85,usm_0.66_1.00_0.01/e73a14_398bca4023a340d8a8c6f7abfab26f95~mv2_d_3840_2160_s_2.webp"
+  },
+  {
+    "title": "Makarska",
+    "coordinate": {
+      "latitude": 43.28333333333333,
+      "longitude": 17
+    },
+    "info": "http://www.spomenikdatabase.org/makarska",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Spomenik_Revolucije%2C_Makarska.JPG/200px-Spomenik_Revolucije%2C_Makarska.JPG"
+  },
+  {
+    "title": "Makljen",
+    "page_id": "ChIJH7mFVvtxX0cRsPYZieV77b4",
+    "coordinate": {
+      "latitude": 43.8426985,
+      "longitude": 17.597102
+    },
+    "info": "http://www.spomenikdatabase.org/makljen",
+    "type": "kompleks",
+    "image": "http://c1038.r38.cf3.rackcdn.com/group4/building39350/media/vgrz_spomenik_15_makljen.jpg"
+  },
+  {
+    "title": "Mali Požarevac",
+    "description": "Spomenik žrtvama banjičkog logora",
+    "coordinate": {
+      "latitude": 44.564613,
+      "longitude": 20.670068
+    },
+    "type": "spomenik",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-zrtvama-banjickog-logora-340/",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/krkovic-momcilo-mali-pozar.500x360.jpg"
+  },
+  {
+    "title": "Maribor",
+    "place_id": "ChIJV6kVILx3b0cRbAD5v3j6E2s",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 46.5531314,
+      "longitude": 15.6266292
+    }
+  },
+  {
+    "title": "Maribor",
+    "description": "Spomenik Kodžak",
+    "coordinate": {
+      "latitude": 46.56050820000001,
+      "longitude": 15.64907519999997
+    },
+    "info": "http://www.spomenikdatabase.org/maribor",
+    "type": "spomenik",
+    "place_id": "ChIJNSkacql3b0cR6a_yItbgVfo",
+    "image": "http://mw2.google.com/mw-panoramio/photos/medium/39996583.jpg"
+  },
+  {
+    "title": "Maribor",
+    "description": "Spomenik Borisu Kidriču",
+    "type": "spomenik",
+    "place_id": "ChIJcUdNjQB3b0cR9vO3YctZX5o",
+    "coordinate": {
+      "latitude": 46.5623404,
+      "longitude": 15.655893600000013
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Trg_Borisa_Kidri%C4%8Da_danes.jpeg/200px-Trg_Borisa_Kidri%C4%8Da_danes.jpeg"
+  },
+  {
+    "title": "Matić poljana",
+    "description": "Spomenik 26 smrznutih partizana",
+    "coordinate": {
+      "latitude": 45.286618,
+      "longitude": 14.896324
+    },
+    "type": "kompleks",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_26_%D1%81%D0%BC%D1%80%D0%B7%D0%BD%D1%83%D1%82%D0%B8%D1%85_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D0%B0",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Spomenik_26_smrznutih_partizana%2C_Mati%C4%87_poljana.jpg/200px-Spomenik_26_smrznutih_partizana%2C_Mati%C4%87_poljana.jpg"
+  },
+  {
+    "title": "Medeno Polje",
+    "coordinate": {
+      "latitude": 44.56666666666667,
+      "longitude": 16.283333333333335
+    },
+    "info": "http://www.spomenikdatabase.org/medeno-polje",
+    "type": "kompleks",
+    "image": "https://thumbs.dreamstime.com/t/monument-bosnia-photo-x-called-x-spomenik-x-x-bosnian-region-krajina-medeno-polje-monuments-now-78114871.jpg"
+  },
+  {
+    "title": "Mirna",
+    "coordinate": {
+      "latitude": 45.9543333,
+      "longitude": 15.0639993
+    },
+    "info": "http://www.spomenikdatabase.org/mirna",
+    "type": "kompleks",
+    "image": "https://cdn.onmuvo.biz/images/application/gallery/thumb/spomenik-nob-na-rojah-mirna-1.jpg"
+  },
+  {
+    "title": "Mitrašinci",
+    "coordinate": {
+      "latitude": 41.777851,
+      "longitude": 22.752701
+    },
+    "type": "kompleks",
+    "image": "http://www.porta3.mk/wp-content/uploads/2016/12/arh_1.jpg"
+  },
+  {
+    "title": "Mitrovica",
+    "description": "Spomenik rudarima junacima",
+    "coordinate": {
+      "latitude": 42.8959609,
+      "longitude": 20.8578913
+    },
+    "info": "http://www.spomenikdatabase.org/mitrovica",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kosovska_Mitrovica_monument.jpg/200px-Kosovska_Mitrovica_monument.jpg"
+  },
+  {
+    "title": "Mokrin, centar sela",
+    "description": "Spomenik mokrinskom partizanskom odredu",
+    "type": "spomenik",
+    "place_id": "ChIJu_Jz7aPnREcRmNzhjarQT2Q",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Spomenik_mokrinskom_partizanskom_odredu_01%2C_rad_Slobodana_Kojica.JPG/200px-Spomenik_mokrinskom_partizanskom_odredu_01%2C_rad_Slobodana_Kojica.JPG",
+    "coordinate": {
+      "latitude": 45.9328862,
+      "longitude": 20.39608720000001
+    }
+  },
+  {
+    "title": "Mostar",
+    "coordinate": {
+      "latitude": 43.3413108,
+      "longitude": 17.79628619999994
+    },
+    "info": "http://www.spomenikdatabase.org/mostar",
+    "type": "kompleks",
+    "place_id": "ChIJ7yrrqrFDSxMRfudGchhwH7k",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Partisan_Memorial_in_Mostar.jpg/200px-Partisan_Memorial_in_Mostar.jpg"
+  },
+  {
+    "title": "Neštin, obala Dunava",
+    "type": "spomenik",
+    "place_id": "ChIJq-7ReNVwW0cRCJU0-Wf7A8Q",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-nob-a-681/",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/d/db/%D0%9D%D0%B5%D1%88%D1%82%D0%B8%D0%BD_-_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B8%D0%B7_%D0%9D%D0%9E%D0%91-%D0%B0.jpeg/200px-%D0%9D%D0%B5%D1%88%D1%82%D0%B8%D0%BD_-_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B8%D0%B7_%D0%9D%D0%9E%D0%91-%D0%B0.jpeg",
+    "coordinate": {
+      "latitude": 45.2131828,
+      "longitude": 19.465984400000025
+    }
+  },
+  {
+    "title": "Nevesinje",
+    "description": "Partizansko spomen-groblje",
+    "coordinate": {
+      "latitude": 43.25452209999999,
+      "longitude": 18.118038399999932
+    },
+    "place_id": "ChIJRQUSssKhTBMRSZd-g9z2JMo",
+    "type": "kompleks"
+  },
+  {
+    "title": "Nikšić",
+    "coordinate": {
+      "latitude": 42.75,
+      "longitude": 18.95
+    },
+    "info": "http://www.spomenikdatabase.org/niksic",
+    "type": "kompleks",
+    "image": "https://c1.staticflickr.com/6/5570/14797402468_7f31b5656c_z.jpg"
+  },
+  {
+    "title": "Niš",
+    "coordinate": {
+      "latitude": 43.3052935,
+      "longitude": 21.8726001
+    },
+    "info": "http://www.spomenikdatabase.org/nis",
+    "place_id": "ChIJx0vDHfm5VUcRXN4SKOX-pMw",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/0/05/Tri_pesnice_Bubanj.jpg/200px-Tri_pesnice_Bubanj.jpg"
+  },
+  {
+    "title": "Novi Banovci",
+    "description": "Spomenik bratstvu i jedinstvu",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 44.956924,
+      "longitude": 20.282228
+    },
+    "image": "http://www.skulpture-srbija.com/media/skulpture/krkovic-momcilo-S-pazova.500x360.jpg",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-bratstvu-i-jedinstvu-473/"
+  },
+  {
+    "title": "Novi Bečej",
+    "coordinate": {
+      "latitude": 45.5944732,
+      "longitude": 20.131287199999974
+    },
+    "place_id": "ChIJ-TW-1I8tW0cRguS2c6ybXfw",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-nob-a-54/",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/berbakov-milorad-1.500x360.jpg",
+    "type": "spomenik"
+  },
+  {
+    "title": "Novi Beograd",
+    "description": "Spomenik žrtvama logora na Sajmištu",
+    "page_id": "ChIJPXvcVVFlWkcRUJzeYn-Fpdk",
+    "coordinate": {
+      "latitude": 44.8125468,
+      "longitude": 20.445621
+    },
+    "type": "spomenik",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/popovic_miodrag_misa_sajmiste.500x360.jpg"
+  },
+  {
+    "title": "Novi Karlovci",
+    "description": "Spomenik palim drugovima",
+    "coordinate": {
+      "latitude": 45.0655665,
+      "longitude": 20.13134919999993
+    },
+    "type": "spomenik",
+    "place_id": "ChIJF0iUv6n5WkcRZh8jRx_ephc"
+  },
+  {
+    "title": "Novi Kneževac",
+    "description": "Spomenik palim borcima, poznat i kao Ratnici",
+    "place_id": "ChIJK9y6pq2WREcRnNaqtg8kRpg",
+    "type": "spomenik",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/zarin-aleksandar-n-knez.500x360.jpg",
+    "coordinate": {
+      "latitude": 46.0458565,
+      "longitude": 20.089056400000004
+    }
+  },
+  {
+    "title": "Novi Sad",
+    "description": "Spomenik žrtvama racije",
+    "coordinate": {
+      "latitude": 45.2524777,
+      "longitude": 19.855803400000013
+    },
+    "type": "spomenik",
+    "place_id": "ChIJEaDeuHEQW0cRvZ3aoT2LdaQ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Spomenik_%C5%BErtvama_racije.jpg/200px-Spomenik_%C5%BErtvama_racije.jpg"
+  },
+  {
+    "title": "Novi Sad, Novo groblje",
+    "description": "SPOMEN GROBLJE PALIH BORACA NOR-A",
+    "type": "kompleks",
+    "place_id": "ChIJgcH8hp4RW0cR3Mh_BQ-svLU",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomen-groblje-palih-boraca-nor-a-569/",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/radovic-cedomir-11.500x360.jpg",
+    "coordinate": {
+      "latitude": 45.2729411,
+      "longitude": 19.792751400000043
+    }
+  },
+  {
+    "title": "Novi Travnik",
+    "description": "Nekropola žrtvama fašizma",
+    "coordinate": {
+      "latitude": 44.18333333333333,
+      "longitude": 17.683333333333334
+    },
+    "info": "http://www.spomenikdatabase.org/novi-travnik",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Necropolis_to_the_victims_of_Fascism_Novi_Travnik.jpg/200px-Necropolis_to_the_victims_of_Fascism_Novi_Travnik.jpg"
+  },
+  {
+    "title": "Oplenac",
+    "description": "Spomenik Miliću Radovanoviću, Milanu Blagojeviću, Darinki Radović i Sofiji Ristić",
+    "coordinate": {
+      "latitude": 44.2472795,
+      "longitude": 20.682539
+    },
+    "type": "spomenik",
+    "image": "https://2.bp.blogspot.com/-ANvlDt2Q-aQ/WEwkAsAkQdI/AAAAAAAAC_Y/AyhViGp9-yUP33V819AlzVxZhTuDDYZNACEw/s1600/DSC_6795.jpg"
+  },
+  {
+    "title": "Osankarica",
+    "description": "Spomenik Pohorskega bataljona",
+    "type": "kompleks",
+    "place_id": "ChIJnwNsC8eGb0cRwJZVm7nbJsI",
+    "image": "http://www.pespoti.si/getPhoto.php?photo=MTI5NTU2LjQ=",
+    "coordinate": {
+      "latitude": 46.4592887,
+      "longitude": 15.417084199999977
+    }
+  },
+  {
+    "title": "Ostra, Čačak",
+    "description": "Spomenik Čačanskom partizanskom odredu",
+    "place_id": "ChIJJ1T9wAoTV0cRA4tDd2H1Tt0",
+    "info": "http://www.spomenikdatabase.org/ostra",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ostra_01.jpg/200px-Ostra_01.jpg",
+    "coordinate": {
+      "latitude": 43.9278281,
+      "longitude": 20.513784299999998
+    }
+  },
+  {
+    "title": "Oteševo",
+    "coordinate": {
+      "latitude": 40.976396,
+      "longitude": 20.912004
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%9F%D1%80%D0%B5%D1%81%D0%BF%D0%B0_43.jpg/200px-%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%9F%D1%80%D0%B5%D1%81%D0%BF%D0%B0_43.jpg",
+    "type": "spomenik"
+  },
+  {
+    "title": "Pelince",
+    "description": "Меморијален Центар АСНОМ",
+    "type": "kompleks",
+    "place_id": "ChIJt3domeT_VBMRzgW5mttCl1M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Spomen-podru%C4%8Dje_Kampor%2C_mozaik.jpg/200px-Spomen-podru%C4%8Dje_Kampor%2C_mozaik.jpg",
+    "coordinate": {
+      "latitude": 42.2784766,
+      "longitude": 21.850523899999985
+    }
+  },
+  {
+    "title": "Petrova Gora",
+    "description": "Spomenik ustanku naroda Banije i Korduna",
+    "coordinate": {
+      "latitude": 45.2416667,
+      "longitude": 15.806388900000002
+    },
+    "info": "http://www.spomenikdatabase.org/petrova-gora",
+    "type": "kompleks",
+    "place_id": "ChIJ6eVFg7eoZkcRfZsXEDYCQmk",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Petrova_Gora_monument.jpg/200px-Petrova_Gora_monument.jpg"
+  },
+  {
+    "title": "Plavno",
+    "description": "Spomenik ustanku protiv ustaškog terora na Tromeđi",
+    "image": "http://static.panoramio.com/photos/large/8910378.jpg",
+    "coordinate": {
+      "latitude": 44.208722,
+      "longitude": 16.170556
+    },
+    "type": "spomenik"
+  },
+  {
+    "title": "Pleso",
+    "coordinate": {
+      "latitude": 45.71666666666667,
+      "longitude": 16.05
+    },
+    "info": "http://www.spomenikdatabase.org/pleso",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Spomenik_Pleso_Velika_Gorica.jpg/200px-Spomenik_Pleso_Velika_Gorica.jpg"
+  },
+  {
+    "title": "Plovanija",
+    "coordinate": {
+      "latitude": 45.450778,
+      "longitude": 13.635306
+    },
+    "info": "http://www.spomenikdatabase.org/plovanija",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Plovanija_monument.jpg/200px-Plovanija_monument.jpg"
+  },
+  {
+    "title": "Podbela, Breginj",
+    "place_id": "ChIJx3rhQWlEekcRKL5qYERV_Lk",
+    "type": "kompleks",
+    "coordinate": {
+      "latitude": 46.2464395,
+      "longitude": 13.455922500000042
+    }
+  },
+  {
+    "title": "Podbišće",
+    "description": "Partizansko groblje",
+    "coordinate": {
+      "latitude": 42.9473992,
+      "longitude": 19.5639895
+    },
+    "type": "kompleks"
+  },
+  {
+    "title": "Podgarić",
+    "description": "Spomenik revolucije naroda Moslavine",
+    "coordinate": {
+      "latitude": 45.6408303,
+      "longitude": 16.77779140000007
+    },
+    "info": "http://www.spomenikdatabase.org/podgarica",
+    "type": "kompleks",
+    "place_id": "ChIJpTkuIL9UZkcRX9VtGdsq_Og",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Spomenik_revoluciji-Podgaric.jpg/200px-Spomenik_revoluciji-Podgaric.jpg"
+  },
+  {
+    "title": "Podgora",
+    "description": "Galebova krila",
+    "coordinate": {
+      "latitude": 43.2457009,
+      "longitude": 17.070514300000013
+    },
+    "place_id": "ChIJOQxlQznwShMR972ILBoUtSg",
+    "info": "http://www.spomenikdatabase.org/podgora",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Eml%C3%A9km%C5%B1%2C_Podgora_-_panoramio.jpg/200px-Eml%C3%A9km%C5%B1%2C_Podgora_-_panoramio.jpg"
+  },
+  {
+    "title": "Podgorica",
+    "type": "spomenik",
+    "place_id": "ChIJ3S5MbDTrTRMR83cpCnZrClA",
+    "image": "https://s-media-cache-ak0.pinimg.com/236x/76/3e/af/763eafaa7c1fcf9f34202aee880241bc.jpg",
+    "coordinate": {
+      "latitude": 42.4468834,
+      "longitude": 19.254367799999955
+    }
+  },
+  {
+    "title": "Podgorica",
+    "description": "Spomenik Partizanu borcu",
+    "coordinate": {
+      "latitude": 42.4495831,
+      "longitude": 19.266066300000034
+    },
+    "place_id": "ChIJ97CmaLOUTRMRvM9KTioGTZU",
+    "type": "kompleks",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%83-%D0%B1%D0%BE%D1%80%D1%86%D1%83",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Spomenik_Partizanu_Borcu.JPG/200px-Spomenik_Partizanu_Borcu.JPG"
+  },
+  {
+    "title": "Podhum",
+    "description": "Spomenik Podhumskim žrtvama",
+    "coordinate": {
+      "latitude": 45.3751981,
+      "longitude": 14.49731840000004
+    },
+    "info": "http://www.spomenikdatabase.org/podhum",
+    "type": "kompleks",
+    "place_id": "ChIJh-CAbjeiZEcR72DJy46Qy2E",
+    "image": "http://outdoors.ga/wp/wp-content/uploads/2016/03/Platak-monument-croatia-min-1024x680.jpg"
+  },
+  {
+    "title": "Podljubelj",
+    "page_id": "ChIJtXE-mIyiekcRR1IxtZ4W9tM",
+    "coordinate": {
+      "latitude": 46.4303,
+      "longitude": 14.269
+    },
+    "image": "https://s3.mojalbum.com/9578733_17991049_22866080/zelenica-13-12-2015/spomenik-nekdanje-koncentracijsko-taborisce-ljubelj.jpg",
+    "type": "spomenik"
+  },
+  {
+    "title": "Poreč",
+    "description": "Spomenik Joakimu Rakovcu",
+    "type": "spomenik",
+    "place_id": "ChIJL29paJ6XfEcRZwlh4IwOL6g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Joakim_Rakovac.JPG/200px-Joakim_Rakovac.JPG",
+    "coordinate": {
+      "latitude": 45.2266466,
+      "longitude": 13.59822399999996
+    }
+  },
+  {
+    "title": "Požarevac",
+    "description": "Spomen-park Čačalica",
+    "coordinate": {
+      "latitude": 44.6136213,
+      "longitude": 21.201110299999982
+    },
+    "info": "http://www.spomenikdatabase.org/pozarevac",
+    "place_id": "ChIJR-HWgmXvUEcRE6OG2jUbU2Q",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Spomenik_%22ZVEZDA%22_cacalica.jpg/200px-Spomenik_%22ZVEZDA%22_cacalica.jpg"
+  },
+  {
+    "title": "Prijepolje",
+    "description": "Partizanska bolnica (Spomenik Prijepoljskoj bici)",
+    "coordinate": {
+      "latitude": 43.3832757,
+      "longitude": 19.63749359999997
+    },
+    "place_id": "ChIJIRz89Jv4V0cR1GNNUoOTPYI",
+    "info": "https://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B0_%D0%B1%D0%BE%D0%BB%D0%BD%D0%B8%D1%86%D0%B0_%D1%83_%D0%9F%D1%80%D0%B8%D1%98%D0%B5%D0%BF%D0%BE%D1%99%D1%83",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Spomenik_prijepoljskoj_bici.jpg"
+  },
+  {
+    "title": "Prijepolje, Jabuka",
+    "description": "Memorijalni kompleks Boško Buha",
+    "coordinate": {
+      "latitude": 43.3479979,
+      "longitude": 19.516849399999955
+    },
+    "place_id": "ChIJzZAlIyQBWEcRwNc00xFEK8U",
+    "info": "https://sr.wikipedia.org/sr/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%BD%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%91%D0%BE%D1%88%D0%BA%D0%BE_%D0%91%D1%83%D1%85%D0%B0",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bosko_Buha_spomenik_Jabuka.jpg/200px-Bosko_Buha_spomenik_Jabuka.jpg"
+  },
+  {
+    "title": "Prilep",
+    "coordinate": {
+      "latitude": 41.3340464,
+      "longitude": 21.55474860000004
+    },
+    "info": "http://www.spomenikdatabase.org/prilep",
+    "type": "kompleks",
+    "place_id": "ChIJEQy62FvpVhMR6oeQd84X34Q",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%BD%D0%B0_%D0%BD%D0%B5%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%82%D0%B5_-_%D0%9F%D1%80%D0%B8%D0%BB%D0%B5%D0%BF_1.JPG/200px-%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%BD%D0%B0_%D0%BD%D0%B5%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%82%D0%B5_-_%D0%9F%D1%80%D0%B8%D0%BB%D0%B5%D0%BF_1.JPG"
+  },
+  {
+    "title": "Priština",
+    "description": "Spomenik bratstva i jedinstva",
+    "coordinate": {
+      "latitude": 42.6657222,
+      "longitude": 21.1640084
+    },
+    "info": "http://www.spomenikdatabase.org/pristina",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Monument_of_Brotherhood_and_Unity_in_Pristina.jpg/200px-Monument_of_Brotherhood_and_Unity_in_Pristina.jpg"
+  },
+  {
+    "title": "Pševo, Kranj",
+    "type": "spomenik",
+    "place_id": "ChIJebBJ13u4ekcR72-yoObj534",
+    "coordinate": {
+      "latitude": 46.23947419999999,
+      "longitude": 14.314303800000062
+    }
+  },
+  {
+    "title": "Pula",
+    "description": "Spomenik palim borcima i žrtvama fašističkoga terora",
+    "type": "spomenik",
+    "place_id": "ChIJXRCUHeHSfEcRMWffyrqaKkA",
+    "coordinate": {
+      "latitude": 44.872398,
+      "longitude": 13.847293100000002
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pula_memorejo_pri_la_kontra%C5%ADfa%C5%9Disma_batalo_de_1941-1944.jpg/200px-Pula_memorejo_pri_la_kontra%C5%ADfa%C5%9Disma_batalo_de_1941-1944.jpg"
+  },
+  {
+    "title": "Radanovci",
+    "description": "Spomenik Žikici Jovanoviću Špancu",
+    "coordinate": {
+      "latitude": 44.0857558,
+      "longitude": 19.8415683
+    },
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Zikica_Jovanovic_Spanac_Radanovci_ADM_5986.jpg/200px-Zikica_Jovanovic_Spanac_Radanovci_ADM_5986.jpg"
+  },
+  {
+    "title": "Rakovica, Beograd",
+    "description": "Spomenik palim borcima u prvom i drugom svetskom ratu",
+    "coordinate": {
+      "latitude": 44.7490082,
+      "longitude": 20.43847900000003
+    },
+    "place_id": "ChIJRytkupVxWkcR_cmtn8dp4Mo",
+    "type": "spomenik"
+  },
+  {
+    "title": "Rovinj",
+    "description": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "spomenik",
+    "place_id": "ChIJAaDxIILAfEcRwBhh7VKzD6g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Rovinj006.jpg/200px-Rovinj006.jpg",
+    "coordinate": {
+      "latitude": 45.0838855,
+      "longitude": 13.633896600000071
+    }
+  },
+  {
+    "title": "Rožaje",
+    "description": "Spomenik palom Borcu",
+    "place_id": "ChIJof0sg0jmUhMRhvv7Z0c15W4",
+    "type": "spomenik",
+    "image": "http://mladirozaja.me/wp-content/uploads/2017/07/IMG_8206.jpg",
+    "coordinate": {
+      "latitude": 42.8431751,
+      "longitude": 20.16793729999995
+    }
+  },
+  {
+    "title": "Rubeši",
+    "description": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "spomenik",
+    "place_id": "ChIJhTm87hamZEcRBf4HoUdqAIU",
+    "image": "http://www.liburnija.net/wp-content/uploads/partizan_rubesi_kastav_spomenik-3.jpg",
+    "coordinate": {
+      "latitude": 45.3631427,
+      "longitude": 14.342372399999931
+    }
+  },
+  {
+    "title": "Rudo",
+    "description": "Spomenik Prvoj proleterskoj brigadi",
+    "type": "spomenik",
+    "place_id": "ChIJOf3rUrNqWEcREqhozxBUnIM",
+    "image": "http://static.panoramio.com/photos/large/22015319.jpg",
+    "coordinate": {
+      "latitude": 43.6177701,
+      "longitude": 19.366024100000004
+    }
+  },
+  {
+    "title": "Ruduša, Sinj",
+    "description": "Spomenik streljanim borcima Splitskog odreda",
+    "coordinate": {
+      "latitude": 43.698361,
+      "longitude": 16.625278
+    },
+    "info": "http://www.spomenikdatabase.org/sinj",
+    "type": "kompleks",
+    "image": "https://farm8.staticflickr.com/7384/27784631070_922e35ced9_m.jpg"
+  },
+  {
+    "title": "Ruma",
+    "description": "Spomenik Revoluciji",
+    "coordinate": {
+      "latitude": 45.008775,
+      "longitude": 19.822278
+    },
+    "image": "http://www.skulpture-srbija.com/media/skulpture/davico-cveta.500x360.jpg",
+    "type": "spomenik",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B8_(%D0%A0%D1%83%D0%BC%D0%B0)"
+  },
+  {
+    "title": "Sanski Most",
+    "description": "Spomen-područje Šušnjar",
+    "coordinate": {
+      "latitude": 44.76228070000001,
+      "longitude": 16.68375489999994
+    },
+    "place_id": "ChIJBxgXn0THYEcRobDsgh2yBAw",
+    "type": "kompleks",
+    "info": "http://www.spomenikdatabase.org/sanski",
+    "image": "http://static.panoramio.com/photos/large/66934950.jpg"
+  },
+  {
+    "title": "Sarajevo",
+    "description": "Spomenik Đuri Đakoviću",
+    "type": "spomenik",
+    "place_id": "ChIJKeOouNvIWEcR2kzlIcuJlnI",
+    "image": "https://sarajlijacult.files.wordpress.com/2013/01/317833_10150862793100621_1449076245_n.jpg",
+    "coordinate": {
+      "latitude": 43.8566258,
+      "longitude": 18.41358749999995
+    }
+  },
+  {
+    "title": "Sarajevo",
+    "description": "Spomenik Vladimiru Periću Valteru",
+    "type": "spomenik",
+    "place_id": "ChIJ6-YR7tvIWEcR97Djo-fCjkI",
+    "coordinate": {
+      "latitude": 43.8559269,
+      "longitude": 18.4126354
+    },
+    "image": "http://sarajevo.travel/assets/photos/places/big/vladimir-walter-peric-monument-1429008948.jpg"
+  },
+  {
+    "title": "Sarajevo",
+    "description": "Spomen-park Vraca",
+    "place_id": "ChIJsfDyyOLIWEcRLWu-4FaKbks",
+    "info": "http://www.spomenikdatabase.org/sarajevo",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Sarajevo_Vraca_Spomen_Park_4.jpg/200px-Sarajevo_Vraca_Spomen_Park_4.jpg",
+    "coordinate": {
+      "latitude": 43.8433946,
+      "longitude": 18.3976897
+    }
+  },
+  {
+    "title": "Šašinci, u blizini sela",
+    "description": "Susret kurira",
+    "place_id": "ChIJM57bJUOuW0cRl8WgnPd5Zkk",
+    "type": "spomenik",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/radovanovic-sasin-12.500x360.jpg",
+    "info": "http://www.skulpture-srbija.com/skulpture/susret-kurira-564/",
+    "coordinate": {
+      "latitude": 44.9495945,
+      "longitude": 19.72090000000003
+    }
+  },
+  {
+    "title": "Sefkerin, centar sela",
+    "type": "spomenik",
+    "place_id": "ChIJY-RgXxGJWkcROzO0_A6siuI",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-i-zrtvama-fasizma-414/",
+    "image": "https://mw2.google.com/mw-panoramio/photos/medium/46560271.jpg",
+    "coordinate": {
+      "latitude": 45.0189219,
+      "longitude": 20.507458499999984
+    }
+  },
+  {
+    "title": "Šehitluci, Banja Luka",
+    "description": "Spomenik palim Krajišnicima",
+    "place_id": "ChIJv0hASCgdXkcRWUhtf7FnZPg",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%9A%D1%80%D0%B0%D1%98%D0%B8%D1%88%D0%BD%D0%B8%D1%86%D0%B8%D0%BC%D0%B0",
+    "type": "kompleks",
+    "image": "http://img04.deviantart.net/ee9e/i/2011/339/6/a/spomenik_palim_borcima_by_momo_egy-d4i8kjc.jpg",
+    "coordinate": {
+      "latitude": 44.7439014,
+      "longitude": 17.16297940000004
+    }
+  },
+  {
+    "title": "Selenča",
+    "type": "spomenik",
+    "place_id": "ChIJSfLpXgKeXEcRL-f8p1O549Q",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/slelenca-111.500x360.jpg",
+    "coordinate": {
+      "latitude": 45.4102085,
+      "longitude": 19.29982419999999
+    }
+  },
+  {
+    "title": "Šibenik",
+    "description": "Spomen-park Šubićevac",
+    "coordinate": {
+      "latitude": 43.7437908,
+      "longitude": 15.900963899999965
+    },
+    "type": "kompleks",
+    "place_id": "ChIJkS2GAGgvNRMR4HqhqLHOUl0",
+    "info": "https://sh.wikipedia.org/wiki/Spomen-park_%C5%A0ubi%C4%87evac",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Spomenik_Radi_Koncaru_i_streljanima-Sibenik.JPG/200px-Spomenik_Radi_Koncaru_i_streljanima-Sibenik.JPG"
+  },
+  {
+    "title": "Sićevo",
+    "coordinate": {
+      "latitude": 43.33941739999999,
+      "longitude": 22.087691800000016
+    },
+    "place_id": "ChIJzUn5zpyuVUcR6fPbC1RpCqc",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sicevo-Spomenik-1.jpg/200px-Sicevo-Spomenik-1.jpg"
+  },
+  {
+    "title": "Sirig",
+    "description": "Spomenik žrtvama fašizma",
+    "coordinate": {
+      "latitude": 45.4451459,
+      "longitude": 19.810478099999955
+    },
+    "place_id": "ChIJhy7zlhQ_W0cR2iHcUGjbtOo",
+    "type": "spomenik",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/radovanovic-pavle-sirig-11.500x360.jpg"
+  },
+  {
+    "title": "Sisak",
+    "description": "Spomen-park Brezovica",
+    "coordinate": {
+      "latitude": 45.502694,
+      "longitude": 16.45840099999998
+    },
+    "info": "http://www.spomenikdatabase.org/sisak",
+    "type": "kompleks",
+    "place_id": "ChIJHScKMVDwZkcRosuDgMpVdQY",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Spomenik_Sisackom_odredu-Brezovica.jpg/200px-Spomenik_Sisackom_odredu-Brezovica.jpg"
+  },
+  {
+    "title": "Skela, Obrenovac",
+    "description": "Spomenik streljanim taocima",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 44.6595581,
+      "longitude": 20.0440021
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Skela%2C_Spomenik_streljanim_taocima%2C_01.jpg/200px-Skela%2C_Spomenik_streljanim_taocima%2C_01.jpg"
+  },
+  {
+    "title": "Skopje",
+    "description": "Skopski partizanski odred",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Spomenik_skopski_odred.JPG/200px-Spomenik_skopski_odred.JPG",
+    "type": "spomenik",
+    "place_id": "ChIJ4TkfOWYUVBMRFcbQf5ytYh0",
+    "coordinate": {
+      "latitude": 42.0083338,
+      "longitude": 21.39974200000006
+    }
+  },
+  {
+    "title": "Skopje",
+    "description": "Spomenik oslobodiocima Skoplja",
+    "place_id": "ChIJu1316LIVVBMRdQFI7j8wTKY",
+    "coordinate": {
+      "latitude": 41.9998587,
+      "longitude": 21.4292675
+    },
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BE%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D0%BE%D1%86%D0%B8%D0%BC%D0%B0_%D0%A1%D0%BA%D0%BE%D0%BF%D1%99%D0%B0",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Liberators_Skopje_NOB.JPG/200px-Liberators_Skopje_NOB.JPG",
+    "type": "spomenik"
+  },
+  {
+    "title": "Skopje",
+    "coordinate": {
+      "latitude": 41.996975,
+      "longitude": 21.44249
+    },
+    "type": "spomenik",
+    "image": "https://s-media-cache-ak0.pinimg.com/236x/80/ee/99/80ee999bdc57ba1bd47710c76a17e43f.jpg"
+  },
+  {
+    "title": "Skopje",
+    "description": "Spomenik Veri Jocić'",
+    "coordinate": {
+      "latitude": 42.0016429,
+      "longitude": 21.4262002
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Skopje_momument_01.jpg/200px-Skopje_momument_01.jpg",
+    "type": "spomenik"
+  },
+  {
+    "title": "Skopje, Kale",
+    "description": "Spomenik slobodi",
+    "coordinate": {
+      "latitude": 42,
+      "longitude": 21.4344
+    },
+    "info": "https://hr.wikipedia.org/wiki/Spomen-park_Borik",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Kale_Skopje.JPG/200px-Kale_Skopje.JPG"
+  },
+  {
+    "title": "Slabinja",
+    "coordinate": {
+      "latitude": 45.21025,
+      "longitude": 16.669278
+    },
+    "info": "http://www.spomenikdatabase.org/slabinja",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Slabinja.jpg/200px-Slabinja.jpg"
+  },
+  {
+    "title": "Šolta",
+    "coordinate": {
+      "latitude": 43.3695805,
+      "longitude": 16.35280309999996
+    },
+    "place_id": "ChIJO0U0ZFNlNRMRbDiSotbkZKQ",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Monument_to_World_War_Two_Dead_-_Solta_Island_-_Croatia_02.jpg/200px-Monument_to_World_War_Two_Dead_-_Solta_Island_-_Croatia_02.jpg"
+  },
+  {
+    "title": "Split",
+    "description": "Svjetionik Pomorac",
+    "coordinate": {
+      "latitude": 43.50093409999999,
+      "longitude": 16.44322020000004
+    },
+    "type": "spomenik",
+    "place_id": "ChIJB200d6tgNRMRzp1QZB5oIbM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/20130602_Split_125.jpg/200px-20130602_Split_125.jpg"
+  },
+  {
+    "title": "Srb",
+    "description": "Spomenik ustanku naroda Hrvatske",
+    "coordinate": {
+      "latitude": 44.365535,
+      "longitude": 16.122308
+    },
+    "info": "https://sh.wikipedia.org/wiki/Spomenik_ustanku_naroda_Hrvatske",
+    "type": "kompleks",
+    "image": "http://www.portalnovosti.com/img/media/image/e05jf8qj1t8gnt4a8i6lu1g2h0n.jpg"
+  },
+  {
+    "title": "Srebrenik",
+    "place_id": "ChIJi1m5eeQdXEcR_JOqJd0KGe8",
+    "type": "kompleks",
+    "coordinate": {
+      "latitude": 44.703212,
+      "longitude": 18.49249020000002
+    }
+  },
+  {
+    "title": "Sremska Mitrovica",
+    "coordinate": {
+      "latitude": 44.9769577,
+      "longitude": 19.60327929999994
+    },
+    "info": "http://www.spomenikdatabase.org/sremska-mitrovica",
+    "type": "kompleks",
+    "place_id": "ChIJQZWX8tykW0cRD9S12S-qEyU",
+    "image": "http://mw2.google.com/mw-panoramio/photos/medium/42618145.jpg"
+  },
+  {
+    "title": "Stara Pazova",
+    "description": "Spomenik Janku Čmeliku",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 44.9832823,
+      "longitude": 20.159093
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/5/5d/Spomenik_Janku_%C4%8Cmeliku_u_Staroj_Pazovi2.jpg/200px-Spomenik_Janku_%C4%8Cmeliku_u_Staroj_Pazovi2.jpg"
+  },
+  {
+    "title": "Stari Žednik, park ispred Zadružnog doma",
+    "type": "spomenik",
+    "place_id": "ChIJcVBTMOJYQ0cRXUzXXAm6QMk",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-i-zrtvama-fasistickog-teror-203/",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/halugin-sava-stari-zednik.500x360.jpg",
+    "coordinate": {
+      "latitude": 45.9472107,
+      "longitude": 19.61023499999999
+    }
+  },
+  {
+    "title": "Štype",
+    "description": "Споменик на депортираните Евреи",
+    "place_id": "ChIJe3v5Uxf7VRMRtskm_X5iGKU",
+    "info": "https://mk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5_%D0%95%D0%B2%D1%80%D0%B5%D0%B8_(%D0%A8%D1%82%D0%B8%D0%BF)",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Monument_of_deported_Jews_in_%C5%A0tip_03.JPG/200px-Monument_of_deported_Jews_in_%C5%A0tip_03.JPG",
+    "coordinate": {
+      "latitude": 41.6437377,
+      "longitude": 22.45842110000001
+    }
+  },
+  {
+    "title": "Štype",
+    "description": "Споменик на паднати борци",
+    "coordinate": {
+      "latitude": 41.6437377,
+      "longitude": 22.45842110000001
+    },
+    "place_id": "ChIJe3v5Uxf7VRMRtskm_X5iGKU",
+    "info": "http://www.spomenikdatabase.org/stip",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Monument_to_fallen_soldiers_-_%C5%A0tip_16.JPG/200px-Monument_to_fallen_soldiers_-_%C5%A0tip_16.JPG"
+  },
+  {
+    "title": "Stražica, Pljevlja",
+    "description": "Spomenik palim borcima",
+    "type": "spomenik",
+    "place_id": "ChIJnYP2DDgIWEcRt8NQgxg_avQ",
+    "image": "http://pvportal.me/wp-content/uploads/2017/05/Spomenik-Strazica.jpg",
+    "coordinate": {
+      "latitude": 43.35245529999999,
+      "longitude": 19.355391199999985
+    }
+  },
+  {
+    "title": "Stručica, Rakovac",
+    "place_id": "ChIJN-tq-1gOW0cRY2f6M_ba6O0",
+    "type": "spomenik",
+    "image": "http://scontent.cdninstagram.com/t51.2885-15/s320x320/sh0.08/e35/19761874_1933434360224743_5788640265942073344_n.jpg",
+    "coordinate": {
+      "latitude": 45.2065918,
+      "longitude": 19.7601952
+    }
+  },
+  {
+    "title": "Struga",
+    "coordinate": {
+      "latitude": 41.177667,
+      "longitude": 20.679528
+    },
+    "info": "http://www.spomenikdatabase.org/struga",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0_spomenik.jpg/200px-%D0%A1%D1%82%D1%80%D1%83%D0%B3%D0%B0_spomenik.jpg"
+  },
+  {
+    "title": "Strumica",
+    "page_id": "ChIJ49j10g7-qRQRiM-J7wfYTLY",
+    "coordinate": {
+      "latitude": 41.43172730000001,
+      "longitude": 22.6353928
+    },
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D1%81%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%86%D0%B0_%D1%83_%D0%A1%D1%82%D1%80%D1%83%D0%BC%D0%B8%D1%86%D0%B8",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monument_Kosturnica_-_Strumcia_%283%29.JPG/200px-Monument_Kosturnica_-_Strumcia_%283%29.JPG",
+    "type": "kompleks"
+  },
+  {
+    "title": "Štulac, Vrnjačka Banja",
+    "description": "Spomen-park Popina",
+    "coordinate": {
+      "latitude": 43.632778,
+      "longitude": 20.959667
+    },
+    "info": "http://www.spomenikdatabase.org/popina",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Spomenik_NOB%2C_Popina_01.jpg/200px-Spomenik_NOB%2C_Popina_01.jpg"
+  },
+  {
+    "title": "Subotica",
+    "description": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "spomenik",
+    "place_id": "ChIJ3369C8VmQ0cRy5XcJ_retVA",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-i-zrtvama-fasizma-595/",
+    "coordinate": {
+      "latitude": 46.09889930000001,
+      "longitude": 19.65905840000005
+    },
+    "image": "http://www.skulpture-srbija.com/media/skulpture/rosandic-toma-sub-12_1.500x360.jpg"
+  },
+  {
+    "title": "Subotica",
+    "coordinate": {
+      "latitude": 46.087758,
+      "longitude": 19.674836
+    },
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Spomenik_palim_borcima_II_Svetskog_rata.jpg/200px-Spomenik_palim_borcima_II_Svetskog_rata.jpg"
+  },
+  {
+    "title": "Tenja",
+    "coordinate": {
+      "latitude": 45.50540549999999,
+      "longitude": 18.741254300000037
+    },
+    "place_id": "ChIJX2CPQNHoXEcR6rbmsZufzIo",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Spomenik_NOB%2C_Tenja.JPG/200px-Spomenik_NOB%2C_Tenja.JPG"
+  },
+  {
+    "title": "Tetovo",
+    "coordinate": {
+      "latitude": 42.0092469,
+      "longitude": 20.9702916
+    },
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Memorial_Monument_in_Central_Square_-_Tetova_%28Tetovo%29_-_Macedonia.jpg/200px-Memorial_Monument_in_Central_Square_-_Tetova_%28Tetovo%29_-_Macedonia.jpg"
+  },
+  {
+    "title": "Tičan",
+    "description": "Spomen područje Tičan",
+    "coordinate": {
+      "latitude": 45.273333,
+      "longitude": 13.7325
+    },
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Ti%C4%87an_WWII_monument.JPG/200px-Ti%C4%87an_WWII_monument.JPG"
+  },
+  {
+    "title": "Titel",
+    "description": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "spomenik",
+    "coordinate": {
+      "latitude": 45.205114,
+      "longitude": 20.312249
+    },
+    "image": "http://www.skulpture-srbija.com/media/skulpture/soldatovic-titel11.500x360.jpg",
+    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-i-zrtvama-faszma-680/"
+  },
+  {
+    "title": "Tjentište",
+    "description": "Dolina heroja",
+    "coordinate": {
+      "latitude": 43.3460792,
+      "longitude": 18.68683199999998
+    },
+    "info": "http://www.spomenikdatabase.org/tjentiste",
+    "type": "kompleks",
+    "place_id": "ChIJfbkQOxjRTBMRfxaQdT0CjNc",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Memorial_for_the_Battle_of_the_Sutjeska.jpg/200px-Memorial_for_the_Battle_of_the_Sutjeska.jpg"
+  },
+  {
+    "title": "Trebinje",
+    "description": "Spomenik borcima palim u borbi protiv fašizma 1941-1945",
+    "type": "spomenik",
+    "place_id": "ChIJr0we9S9pTBMRKeXMTIAwF9c",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Trebinje-_Spomenik_borcima_palim_u_borbi_protiv_fa%C5%A1izma_1941-1945_-_panoramio.jpg/200px-Trebinje-_Spomenik_borcima_palim_u_borbi_protiv_fa%C5%A1izma_1941-1945_-_panoramio.jpg",
+    "coordinate": {
+      "latitude": 42.7096368,
+      "longitude": 18.344159999999988
+    }
+  },
+  {
+    "title": "Trstenik",
+    "coordinate": {
+      "latitude": 43.6221428,
+      "longitude": 20.99871159999998
+    },
+    "place_id": "ChIJH_jYPrBYVkcRQA3BpLKilhs",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Trstenik_-_Monument.jpg/200px-Trstenik_-_Monument.jpg"
+  },
+  {
+    "title": "Tuzla",
+    "description": "Memorijalni kompleks Slana banja",
+    "type": "kompleks",
+    "place_id": "ChIJA_mbEiatXkcRpn_hyTEmBko",
+    "coordinate": {
+      "latitude": 44.53902060000001,
+      "longitude": 18.687452200000052
+    }
+  },
+  {
+    "title": "Tuzla",
+    "description": "Spomenik Husinskim rudarima",
+    "coordinate": {
+      "latitude": 44.533611,
+      "longitude": 18.656111
+    },
+    "type": "spomenik",
+    "image": "http://photos.wikimapia.org/p/00/00/37/38/60_big.jpg"
+  },
+  {
+    "title": "Ulcinj",
+    "page_id": "ChIJYWfSyqAUThMRUuDX0DIhFc4",
+    "coordinate": {
+      "latitude": 41.9240193,
+      "longitude": 19.205786
+    },
+    "image": "http://photos.wikimapia.org/p/00/00/65/83/82_big.jpg",
+    "info": "http://www.spomenikdatabase.org/ulcinj",
+    "type": "kompleks"
+  },
+  {
+    "title": "Urh, Ljubljana",
+    "description": "Palima na Urhu",
+    "type": "spomenik",
+    "place_id": "ChIJCxwHXxouZUcREloO8FW27RQ",
+    "image": "https://gregorkrasnja1.files.wordpress.com/2007/05/8eaae-sv-urh.jpg",
+    "coordinate": {
+      "latitude": 46.0352239,
+      "longitude": 14.584335099999976
+    }
+  },
+  {
+    "title": "Užice",
+    "description": "Titov spomenik",
+    "place_id": "ChIJjQJ_00_TWUcRCUSbRevx_EY",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/8/82/Titov_spomenik_Uzice.jpg/200px-Titov_spomenik_Uzice.jpg",
+    "coordinate": {
+      "latitude": 43.853974,
+      "longitude": 19.846390499999984
+    }
+  },
+  {
+    "title": "Valjevo",
+    "description": "Spomenik Stjepanu Stevi Filipoviću",
+    "coordinate": {
+      "latitude": 44.2639087,
+      "longitude": 19.88062089999994
+    },
+    "place_id": "ChIJ_86_QwftWUcRFhvOMfyF-TQ",
+    "type": "kompleks",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Stjepan_Filipovi%C4%87.JPG/200px-Stjepan_Filipovi%C4%87.JPG"
+  },
+  {
+    "title": "Valjevo",
+    "description": "Spomen groblje na Krušiku",
+    "coordinate": {
+      "latitude": 44.282329,
+      "longitude": 19.890376
+    },
+    "type": "kompleks",
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D0%BD%D0%B0_%D0%9A%D1%80%D1%83%D1%88%D0%B8%D0%BA%D1%83",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Spomen_groblje_na_Kru%C5%A1iku%2C_Valjevo_036.jpg/200px-Spomen_groblje_na_Kru%C5%A1iku%2C_Valjevo_036.jpg"
+  },
+  {
+    "title": "Velanija, Priština",
+    "page_id": "ChIJ1Xn7kdmeVBMRkZTSuZ62bro",
+    "coordinate": {
+      "latitude": 42.6587608,
+      "longitude": 21.1754686
+    },
+    "info": "http://www.spomenikdatabase.org/velanija",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Pristina_martyr_monument.jpg/200px-Pristina_martyr_monument.jpg",
+    "type": "kompleks"
+  },
+  {
+    "title": "Veles",
+    "coordinate": {
+      "latitude": 41.7230915,
+      "longitude": 21.78829189999999
+    },
+    "place_id": "ChIJhcesNLgrVBMRsi6qQF0ESuQ",
+    "info": "http://www.spomenikdatabase.org/veles",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Veles_Memorial_Ossuary_03.jpg/200px-Veles_Memorial_Ossuary_03.jpg"
+  },
+  {
+    "title": "Virpazar",
+    "description": "Spomenik Revolucije",
+    "coordinate": {
+      "latitude": 42.245905,
+      "longitude": 19.0916606
+    },
+    "type": "spomenik",
+    "image": "http://mw2.google.com/mw-panoramio/photos/medium/49365182.jpg"
+  },
+  {
+    "title": "Vlasotince",
+    "coordinate": {
+      "latitude": 42.962833,
+      "longitude": 22.132778
+    },
+    "info": "http://www.spomenikdatabase.org/vlasotince",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Vlasotince_war_monument.jpg/200px-Vlasotince_war_monument.jpg",
+    "type": "kompleks"
+  },
+  {
+    "title": "Vođenica, Bosanski Petrovac",
+    "coordinate": {
+      "latitude": 44.634528,
+      "longitude": 16.274556
+    },
+    "info": "http://www.spomenikdatabase.org/vodjenica",
+    "type": "kompleks"
+  },
+  {
+    "title": "Vogošća",
+    "coordinate": {
+      "latitude": 43.89941049999999,
+      "longitude": 18.350012500000048
+    },
+    "info": "http://www.spomenikdatabase.org/vogosca",
+    "type": "kompleks",
+    "place_id": "ChIJER68zkHMWEcRZLw4_8jhBq0",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/9/90/Spomenik_NOB%2C_Vogo%C5%A1%C4%87a.jpg/200px-Spomenik_NOB%2C_Vogo%C5%A1%C4%87a.jpg"
+  },
+  {
+    "title": "Vranjske Njive",
+    "coordinate": {
+      "latitude": 42.483333333333334,
+      "longitude": 19.216666666666665
+    },
+    "image": "https://s-media-cache-ak0.pinimg.com/564x/61/f7/12/61f71235a8cbc472588c7a74b36eb1bf.jpg",
+    "info": "http://www.spomenikdatabase.org/vranjske-njive",
+    "type": "spomenik"
+  },
+  {
+    "title": "Vrbas",
+    "description": "Spomenik Savi Kovačeviću",
+    "coordinate": {
+      "latitude": 45.5939513,
+      "longitude": 19.6520519
+    },
+    "info": "https://sr.wikipedia.org/wiki/%D0%94%D0%B0%D1%82%D0%BE%D1%82%D0%B5%D0%BA%D0%B0:Spomenik_Savi_Kovacevicu_u_Vrbasu.jpg",
+    "type": "spomenik",
+    "page_id": "ChIJH4j_SR9QW0cRZ0ZUkb76dVk",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/e/ef/Spomenik_Savi_Kovacevicu_u_Vrbasu.jpg/200px-Spomenik_Savi_Kovacevicu_u_Vrbasu.jpg"
+  },
+  {
+    "title": "Vrtoče",
+    "coordinate": {
+      "latitude": 44.635639,
+      "longitude": 16.178361
+    },
+    "info": "http://www.spomenikdatabase.org/vrtoce",
+    "type": "kompleks",
+    "image": "http://3.bp.blogspot.com/-xgbjDExxqpU/UsfAjlr3UDI/AAAAAAAANvU/aRQdeeLRPIA/s1600/Vrtoce+-+Spominski+park+NOB+2.jpg"
+  },
+  {
+    "title": "Vukosavci, Lopare",
+    "description": "Spomen park Vukosavci",
+    "coordinate": {
+      "latitude": 44.6365091,
+      "longitude": 18.877793300000008
+    },
+    "place_id": "ChIJ2_77neL9W0cR1rraATDEDZs",
+    "image": "http://photos.wikimapia.org/p/00/00/88/30/99_big.jpg",
+    "type": "kompleks",
+    "info": "https://sr.wikipedia.org/sr-el/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D1%83_%D0%92%D1%83%D0%BA%D0%BE%D1%81%D0%B0%D0%B2%D1%86%D0%B8%D0%BC%D0%B0"
+  },
+  {
+    "title": "Vukovar",
+    "description": "Spomen-park Dudik",
+    "coordinate": {
+      "latitude": 45.3305836,
+      "longitude": 19.017526299999986
+    },
+    "info": "http://www.spomenikdatabase.org/vukovar",
+    "type": "kompleks",
+    "place_id": "ChIJB8pJg36PXEcRg-DbXDDryJw",
+    "image": "http://3.bp.blogspot.com/-1ebOZXiVXw0/U2ucI_AbUBI/AAAAAAAACIo/l0vDtBIT9EY/s1600/1978-80-Vukovar.jpg"
+  },
+  {
+    "title": "Žabalj",
+    "description": "Spomen-kompleks Crna Ćuprija",
+    "coordinate": {
+      "latitude": 45.4015487,
+      "longitude": 20.20284319999996
+    },
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%A6%D1%80%D0%BD%D0%B0_%D0%8B%D1%83%D0%BF%D1%80%D0%B8%D1%98%D0%B0",
+    "type": "kompleks",
+    "place_id": "ChIJGS_qxFUnW0cRzfWKGE1aWuc",
+    "image": "http://www.skulpture-srbija.com/media/skulpture/soldatovic-zabalj.500x360.jpg"
+  },
+  {
+    "title": "Žabljak",
+    "description": "Spomenik palim borcima",
+    "type": "spomenik",
+    "place_id": "ChIJU_GVUTE5TRMRwkcfEdadybE",
+    "image": "https://durmitor.files.wordpress.com/2011/01/spomenik_zrvama_fasizma.jpg",
+    "coordinate": {
+      "latitude": 43.155924,
+      "longitude": 19.123089499999992
+    }
+  },
+  {
+    "title": "Zagreb",
+    "description": "Spomenik prosinačkim žrtvama iz 1943",
+    "coordinate": {
+      "latitude": 45.81666666666667,
+      "longitude": 16.033333333333335
+    },
+    "page_id": "ChIJz3l0-N3XZUcR5IWQmxmiypQ",
+    "info": "http://www.spomenikdatabase.org/zagreb",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Spomenik_prosinackim_zrtvama.jpg/200px-Spomenik_prosinackim_zrtvama.jpg"
+  },
+  {
+    "title": "Zagreb",
+    "description": "Spomenik palim borcima Ciglenice",
+    "type": "spomenik",
+    "place_id": "ChIJV4SyrMXWZUcR9OE_FiR50kY",
+    "coordinate": {
+      "latitude": 45.8066307,
+      "longitude": 15.9445598
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Spomenik_palim_borcima_Zagreb.jpg/200px-Spomenik_palim_borcima_Zagreb.jpg"
+  },
+  {
+    "title": "Zagreb",
+    "description": "Ivan Goran Kovačić",
+    "coordinate": {
+      "latitude": 45.8168825,
+      "longitude": 15.980178600000045
+    },
+    "type": "spomenik",
+    "place_id": "ChIJWfsdgQHXZUcRxq82I-M2rNY",
+    "image": "https://i1.wp.com/slikepartizana.com/wp-content/uploads/2016/11/ivan-goran-kovacic-spomenik.jpg?fit=1022%2C1089&resize=350%2C200"
+  },
+  {
+    "title": "Zagreb, park Tuškanac",
+    "description": "Spomenik Vladimira Nazora",
+    "place_id": "ChIJUdRcWhfXZUcREBv0U1VAg80",
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Spomenik_Vladimira_Nazora_u_Zagrebu.jpg/200px-Spomenik_Vladimira_Nazora_u_Zagrebu.jpg",
+    "info": "http://www1.zagreb.hr/galerijakd.nsf/c31dd4a135787898c1256f9600325af4/436e54a111e2eabbc1257f3e00491300?OpenDocument",
+    "coordinate": {
+      "latitude": 45.8256509,
+      "longitude": 15.971081700000013
+    }
+  },
+  {
+    "title": "Zaostrog",
+    "coordinate": {
+      "latitude": 43.139472,
+      "longitude": 17.278333
+    },
+    "info": "http://www.spomenikdatabase.org/zaostrog",
+    "type": "kompleks",
+    "image": "http://static.wixstatic.com/media/e73a14_5413114a9f8e4331872c541336c7e600~mv2.jpg_srz_388_581_85_22_0.50_1.20_0.00_jpg_srz"
+  },
+  {
+    "title": "Zemun",
+    "description": "Spomenik Bombaš u Zemunskom parku",
+    "coordinate": {
+      "latitude": 44.8406259,
+      "longitude": 20.4086481
+    },
+    "type": "spomenik",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bombas_Gradski_park_Zemun.jpg/200px-Bombas_Gradski_park_Zemun.jpg"
+  },
+  {
+    "title": "Zenica",
+    "place_id": "ChIJlU_ZvPjjXkcRrJ6DZU04NY4",
+    "info": "http://www.spomenikdatabase.org/zenica",
+    "type": "kompleks",
+    "image": "http://static.panoramio.com/photos/large/34526409.jpg",
+    "coordinate": {
+      "latitude": 44.2447946,
+      "longitude": 17.959650799999963
+    }
+  },
+  {
+    "title": "Zlatibor",
+    "description": "Spomenik streljanim partizanima",
+    "coordinate": {
+      "latitude": 43.7113232,
+      "longitude": 19.711862699999983
+    },
+    "info": "http://www.spomenikdatabase.org/zlatibor",
+    "place_id": "ChIJ66EEyYQlWEcRFSRSjI_-_u8",
+    "type": "kompleks",
+    "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/2/27/Spomenik_palim_partizanima.jpg/200px-Spomenik_palim_partizanima.jpg"
+  },
+  {
+    "title": "Župank",
+    "place_id": "ChIJ5fNfTfuSb0cRTzr-D1jc_9E",
+    "type": "kompleks",
+    "image": "http://kpm.arh-deko.com/imgs/21/img02.jpg",
+    "coordinate": {
+      "latitude": 46.6175779,
+      "longitude": 15.237729299999955
+    }
+  },
+  {
+    "title": "Žužemberk",
+    "coordinate": {
+      "latitude": 45.836056,
+      "longitude": 14.931694
+    },
+    "image": "http://www.euparky.si/portals/1/euparky/Slovenija/Zuzemberk/zgodovina/spomenik.jpg",
+    "info": "http://www.spomenikdatabase.org/zuzemberk",
+    "type": "kompleks"
   }
-}]
+]

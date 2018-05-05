@@ -9,7 +9,10 @@ const Card = ({marker, region, focusRegion}) => (
     style={styles.card}
     onPress={() => focusRegion({...region, ...marker.coordinate})}
     >
-    <Image source={marker.image} style={styles.cardImage} resizeMode='cover' />
+    <Image
+      source={{uri: marker.image}}
+      style={styles.cardImage}
+      resizeMode='cover' />
     <View style={styles.textContent}>
       <Text numberOfLines={1} style={styles.cardtitle}>{marker.title}</Text>
       <Text numberOfLines={1} style={styles.cardDescription}>
