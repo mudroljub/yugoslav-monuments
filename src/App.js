@@ -3,6 +3,7 @@ import {View, ScrollView} from 'react-native'
 import MapView from 'react-native-maps'
 import {connect} from 'react-redux'
 
+import {focusRegion} from './state'
 import Marker from './components/Marker'
 import Card from './components/Card'
 import styles from './styles'
@@ -11,13 +12,10 @@ const mapStateToProps = ({region, monuments}) => ({region, monuments})
 
 @connect(mapStateToProps)
 export default class App extends Component {
-  // prebaciti u akcije, menja region
+
   centerMap = marker => {
-    this.map.animateToRegion({
-      ...marker.coordinate,
-      latitudeDelta: this.props.region.latitudeDelta,
-      longitudeDelta: this.props.region.longitudeDelta,
-    }, 350)
+    const region = {...this.props.region, ...marker.coordinate}
+    this.props.dispatch(focusRegion(region))
   }
 
   renderMarker = (marker, i) => (
@@ -32,8 +30,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <MapView
-          ref={map => this.map = map}
-          initialRegion={this.props.region}
+          region={this.props.region}
           style={styles.container}
         >
           {this.props.monuments.map(this.renderMarker)}

@@ -47,18 +47,12 @@ const initialState = {
 
 export const reducer = (state = initialState, action) => {
   const {region, monuments} = state
-  const {type, payload} = action
-
-  switch (type) {
-    case 'ADD_MONUMENT':
-      return {...state, monuments: [payload, ...monuments]}
-    case 'REMOVE_MONUMENT':
-      return {...state}
-    case 'CHOOSE_MONUMENT':
-      return {...state}
+  switch (action.type) {
+    case 'FOCUS_REGION':
+      return {...state, region: action.region}
     default:
       return state
   }
 }
 
-export const addPlace = place => ({type: 'ADD_MONUMENT', payload: place})
+export const focusRegion = region => ({type: 'FOCUS_REGION', region})
