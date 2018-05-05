@@ -1,5 +1,7 @@
 import React from 'react'
-import MapView, {Marker, PROVIDER_GOOGLE} from 'react-native-maps'
+import {Text, View, Image} from 'react-native'
+import {showLocation} from 'react-native-map-link'
+import MapView, {Marker, Callout, PROVIDER_GOOGLE} from 'react-native-maps'
 import {connect} from 'react-redux'
 
 import styles from '../styles'
@@ -15,10 +17,23 @@ const Map = ({region, monuments}) => (
     {monuments.map((marker, i) =>
       <Marker key={i}
         coordinate={marker.coordinate}
-        title={marker.title}
-        description={marker.description}
         image={require('./marker.png')}
-      />
+      >
+        <Callout onPress={() => {
+            const {latitude, longitude} = marker.coordinate
+            showLocation({
+                latitude,
+                longitude,
+                googlePlaceId: marker.googlePlaceId,
+            })
+          }}>
+          <Image source={{uri: marker.image}} resizeMode='contain' />
+          <View style={styles.textContent}>
+            <Text style={styles.cardtitle}>{marker.title}</Text>
+            <Text style={styles.cardDescription}>{marker.description}</Text>
+          </View>
+        </Callout>
+      </Marker>
     )}
   </MapView>
 )
