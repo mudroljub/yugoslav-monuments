@@ -5,19 +5,27 @@ import {
   Image,
   TouchableOpacity
 } from 'react-native'
+import {connect} from 'react-redux'
 
+import {focusRegion} from '../state'
 import styles from '../styles'
 
-const Card = props => (
-  <TouchableOpacity style={styles.card} onPress={() => props.centerMap(props.marker)}>
-    <Image source={props.marker.image} style={styles.cardImage} resizeMode='cover' />
+const Card = ({marker, region, focusRegion}) => (
+  <TouchableOpacity
+    style={styles.card}
+    onPress={() => focusRegion({...region, ...marker.coordinate})}
+    >
+    <Image source={marker.image} style={styles.cardImage} resizeMode='cover' />
     <View style={styles.textContent}>
-      <Text numberOfLines={1} style={styles.cardtitle}>{props.marker.title}</Text>
+      <Text numberOfLines={1} style={styles.cardtitle}>{marker.title}</Text>
       <Text numberOfLines={1} style={styles.cardDescription}>
-        {props.marker.description}
+        {marker.description}
       </Text>
     </View>
   </TouchableOpacity>
 )
 
-export default Card
+const mapStateToProps = ({region}) => ({region})
+const mapDispatchToProps = {focusRegion}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Card)
