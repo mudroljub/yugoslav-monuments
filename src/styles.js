@@ -15,9 +15,6 @@ export default StyleSheet.create({
     right: 0,
     paddingVertical: 10,
   },
-  endPadding: {
-    paddingRight: width - CARD_WIDTH,
-  },
   card: {
     padding: 10,
     elevation: 2,

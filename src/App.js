@@ -14,11 +14,9 @@ const App = ({region, monuments}) => (
         <Marker key={i} coordinate={marker.coordinate} />
       )}
     </MapView>
-    <ScrollView
-      horizontal
+    <ScrollView horizontal
       showsHorizontalScrollIndicator={false}
       style={styles.scrollView}
-      contentContainerStyle={styles.endPadding}
     >
       {monuments.map((marker, i) =>
         <Card key={i} marker={marker} />
