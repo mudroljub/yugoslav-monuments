@@ -12,8 +12,7 @@ export default StyleSheet.create({
     top: 60,
     position: "absolute",
     left: 20,
-    height: 40,
-    width: 40,
+    fontSize: 26,
   },
   scrollView: {
     position: "absolute",

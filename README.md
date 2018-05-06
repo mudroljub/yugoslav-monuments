@@ -12,7 +12,6 @@ Build a Map with Custom Animated Markers and Region Focus when Content is Scroll
 
 ## TODO
 
-- da centrira trenutnu lokaciju
 - da klikom na karticu otvori InfoWindow
 - mozda da togluje kartice
 

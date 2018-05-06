@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {TouchableHighlight, Image, Alert} from 'react-native'
+import {TouchableOpacity, Image, Text, Alert} from 'react-native'
 import {connect} from 'react-redux'
 
 import {focusRegion} from '../state'
@@ -21,12 +21,7 @@ class Geolocation extends Component {
 
   render() {
     return (
-      <TouchableHighlight onPress={this.center}>
-        <Image
-          style={styles.geolocation}
-          source={require('../images/geolocation.png')}
-        />
-      </TouchableHighlight>
+      <Text style={styles.geolocation}>&#10029;</Text>
     )
   }
 }
