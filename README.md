@@ -12,6 +12,6 @@ Build a Map with Custom Animated Markers and Region Focus when Content is Scroll
 
 ## TODO
 
-- prikazuje lokaciju
-- otvara info prozor
-- otvara mesto na google mapi
+- da centrira trenutnu lokaciju
+- da klikom na karticu otvori InfoWindow
+- ne prikazuje sliku u prozoru, proveriti na drugom uredjaju

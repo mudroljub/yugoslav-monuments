@@ -11,9 +11,10 @@ const InfoWindow = ({marker}) => (
       showLocation({latitude, longitude})
     }}>
     <Image source={{uri: marker.image}} resizeMode='contain' />
-    <View style={styles.textContent}>
+    <View style={styles.container}>
       <Text style={styles.cardtitle}>{marker.title}</Text>
       <Text style={styles.cardDescription}>{marker.description}</Text>
+      <Text style={styles.cardDescription}>(click to find a route)</Text>
     </View>
   </Callout>
 )

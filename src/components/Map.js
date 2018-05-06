@@ -10,7 +10,8 @@ const Map = ({region, monuments}) => (
   <MapView provider={PROVIDER_GOOGLE} region={region}
     style={styles.container} customMapStyle={mapStyle} >
     {monuments.map((marker, i) =>
-      <Marker key={i} coordinate={marker.coordinate}
+      <Marker key={i}
+        coordinate={marker.coordinate}
         image={require('../marker.png')} >
         <InfoWindow marker={marker} />
       </Marker>

@@ -34,9 +34,6 @@ export default StyleSheet.create({
     height: "100%",
     alignSelf: "center",
   },
-  textContent: {
-    flex: 1,
-  },
   cardtitle: {
     fontSize: 12,
     marginTop: 5,
