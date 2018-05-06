@@ -1,38 +1,18 @@
 import React from 'react'
-import {Text, View, Image} from 'react-native'
-import {showLocation} from 'react-native-map-link'
-import MapView, {Marker, Callout, PROVIDER_GOOGLE} from 'react-native-maps'
+import MapView, {Marker, PROVIDER_GOOGLE} from 'react-native-maps'
 import {connect} from 'react-redux'
 
-import styles from '../styles'
+import InfoWindow from './InfoWindow'
 import mapStyle from './mapStyle'
+import styles from '../styles'
 
 const Map = ({region, monuments}) => (
-  <MapView
-    provider={PROVIDER_GOOGLE}
-    region={region}
-    style={styles.container}
-    customMapStyle={mapStyle}
-    >
+  <MapView provider={PROVIDER_GOOGLE} region={region}
+    style={styles.container} customMapStyle={mapStyle} >
     {monuments.map((marker, i) =>
-      <Marker key={i}
-        coordinate={marker.coordinate}
-        image={require('./marker.png')}
-      >
-        <Callout onPress={() => {
-            const {latitude, longitude} = marker.coordinate
-            showLocation({
-                latitude,
-                longitude,
-                googlePlaceId: marker.googlePlaceId,
-            })
-          }}>
-          <Image source={{uri: marker.image}} resizeMode='contain' />
-          <View style={styles.textContent}>
-            <Text style={styles.cardtitle}>{marker.title}</Text>
-            <Text style={styles.cardDescription}>{marker.description}</Text>
-          </View>
-        </Callout>
+      <Marker key={i} coordinate={marker.coordinate}
+        image={require('../marker.png')} >
+        <InfoWindow marker={marker} />
       </Marker>
     )}
   </MapView>
