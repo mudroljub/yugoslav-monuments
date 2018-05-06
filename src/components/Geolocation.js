@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import {TouchableHighlight, Image, Alert} from 'react-native'
 import {connect} from 'react-redux'
 
@@ -14,11 +14,7 @@ class Geolocation extends Component {
 
   center = () => {
     navigator.geolocation.getCurrentPosition(
-      position => focusRegion({
-        ...this.props.region,
-        latitude: position.coords.latitude,
-        longitude: position.coords.longitude
-      }),
+      location => this.props.focusRegion({...this.props.region, ...location.coords}),
       error => Alert.alert(error.message, infoMessage)
     )
   }
