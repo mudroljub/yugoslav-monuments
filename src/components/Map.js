@@ -7,12 +7,18 @@ import mapStyle from './mapStyle'
 import styles from '../styles'
 
 const Map = ({region, monuments}) => (
-  <MapView provider={PROVIDER_GOOGLE} region={region}
-    style={styles.container} customMapStyle={mapStyle} >
+  <MapView
+    provider={PROVIDER_GOOGLE}
+    region={region}
+    style={styles.container}
+    customMapStyle={mapStyle}
+    showsMyLocationButton={true}
+    showsUserLocation={true}
+    >
     {monuments.map((marker, i) =>
       <Marker key={i}
         coordinate={marker.coordinate}
-        image={require('../marker.png')} >
+        image={require('../images/marker.png')} >
         <InfoWindow marker={marker} />
       </Marker>
     )}

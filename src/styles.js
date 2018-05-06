@@ -8,6 +8,13 @@ export default StyleSheet.create({
   container: {
     flex: 1,
   },
+  geolocation: {
+    top: 60,
+    position: "absolute",
+    left: 20,
+    height: 40,
+    width: 40,
+  },
   scrollView: {
     position: "absolute",
     bottom: 5,
