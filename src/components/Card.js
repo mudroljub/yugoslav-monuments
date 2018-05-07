@@ -8,8 +8,8 @@ import styles from '../styles'
 const Card = ({marker, region, setRegion, choosePlace}) => (
   <TouchableOpacity style={styles.card}
     onPress={() => {
-      setRegion({...region, ...marker.coordinate})
       choosePlace(marker.googlePlaceId)
+      setRegion({...region, ...marker.coordinate})
     }}
   >
     <Image
