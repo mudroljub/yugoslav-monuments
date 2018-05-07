@@ -5,8 +5,6 @@ import {connect} from 'react-redux'
 import {focusRegion} from '../state'
 import styles from '../styles'
 
-const infoMessage = 'You should enable location on your device for full functionality.'
-
 class Geolocation extends Component {
   componentDidMount() {
     this.center()
@@ -15,7 +13,7 @@ class Geolocation extends Component {
   center = () => {
     navigator.geolocation.getCurrentPosition(
       location => this.props.focusRegion({...this.props.region, ...location.coords}),
-      error => Alert.alert(error.message, infoMessage)
+      error => Alert.alert('Info', error.message)
     )
   }
 
