@@ -9,7 +9,7 @@ export default StyleSheet.create({
     flex: 1,
   },
   geolocation: {
-    top: 60,
+    top: 40,
     position: "absolute",
     left: 20,
     fontSize: 26,

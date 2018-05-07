@@ -2,12 +2,15 @@ import React from 'react'
 import {Text, View, Image, TouchableOpacity} from 'react-native'
 import {connect} from 'react-redux'
 
-import {focusRegion} from '../state'
+import {setRegion, choosePlace} from '../state'
 import styles from '../styles'
 
-const Card = ({marker, region, focusRegion}) => (
+const Card = ({marker, region, setRegion, choosePlace}) => (
   <TouchableOpacity style={styles.card}
-    onPress={() => focusRegion({...region, ...marker.coordinate})}
+    onPress={() => {
+      // setRegion({...region, ...marker.coordinate})
+      choosePlace(marker.googlePlaceId)
+    }}
   >
     <Image
       source={{uri: marker.image}}
@@ -23,6 +26,6 @@ const Card = ({marker, region, focusRegion}) => (
 )
 
 const mapStateToProps = ({region}) => ({region})
-const mapDispatchToProps = {focusRegion}
+const mapDispatchToProps = {setRegion, choosePlace}
 
 export default connect(mapStateToProps, mapDispatchToProps)(Card)

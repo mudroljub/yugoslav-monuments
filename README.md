@@ -12,8 +12,7 @@ Build a Map with Custom Animated Markers and Region Focus when Content is Scroll
 
 ## TODO
 
-- da klikom na karticu otvori InfoWindow
-- mozda da togluje kartice
+- mozda da sakriva kartice
 
 Bagovi:
 

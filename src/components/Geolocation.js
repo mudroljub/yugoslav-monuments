@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {TouchableOpacity, Image, Text, Alert} from 'react-native'
 import {connect} from 'react-redux'
 
-import {focusRegion} from '../state'
+import {setRegion} from '../state'
 import styles from '../styles'
 
 class Geolocation extends Component {
@@ -12,8 +12,8 @@ class Geolocation extends Component {
 
   center = () => {
     navigator.geolocation.getCurrentPosition(
-      location => this.props.focusRegion({...this.props.region, ...location.coords}),
-      handleErorr
+      location => this.props.setRegion({...this.props.region, ...location.coords}),
+      this.handleErorr
     )
   }
 
@@ -32,6 +32,6 @@ class Geolocation extends Component {
 }
 
 const mapStateToProps = ({region}) => ({region})
-const mapDispatchToProps = {focusRegion}
+const mapDispatchToProps = {setRegion}
 
 export default connect(mapStateToProps, mapDispatchToProps)(Geolocation)
