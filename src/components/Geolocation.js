@@ -19,7 +19,7 @@ class Geolocation extends Component {
 
   render() {
     return (
-      <Text style={styles.geolocation}>&#10029;</Text>
+      <Text onPress={this.center} style={styles.geolocation}>&#10029;</Text>
     )
   }
 }
