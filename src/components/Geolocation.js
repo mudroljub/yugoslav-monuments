@@ -13,8 +13,15 @@ class Geolocation extends Component {
   center = () => {
     navigator.geolocation.getCurrentPosition(
       location => this.props.focusRegion({...this.props.region, ...location.coords}),
-      error => Alert.alert('Info', error.message)
+      handleErorr
     )
+  }
+
+  handleErorr = error => {
+    if (error.message == 'Location services are disabled')
+      Alert.alert(error.message, 'Please enable geolocation.')
+    else
+      Alert.alert('Error', error.message)
   }
 
   render() {
