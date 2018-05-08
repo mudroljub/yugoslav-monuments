@@ -1,6 +1,7 @@
 {
   "expo": {
    "name": "Yugoslav Monuments",
+   "description": "Yugoslav World War II Monuments App",
    "icon": "./icon.png",
    "version": "1.0.0",
    "slug": "yugoslav-monuments",
