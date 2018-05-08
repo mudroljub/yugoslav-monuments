@@ -7,7 +7,6 @@ import styles from '../styles'
 
 const Scroller = ({monuments}) => (
   <ScrollView horizontal
-    showsHorizontalScrollIndicator={false}
     style={styles.scrollView}
   >
     {monuments

@@ -1,7 +1,15 @@
 {
-  "name": "mape",
-  "displayName": "mape",
   "expo": {
-    "sdkVersion": "27.0.0"
+   "name": "Yugoslav Monuments",
+   "icon": "./icon.png",
+   "version": "1.0.0",
+   "slug": "yugoslav-monuments",
+   "sdkVersion": "27.0.0",
+   "ios": {
+     "bundleIdentifier": "org.skolakoda.damjan"
+   },
+   "android": {
+     "package": "org.skolakoda.damjan"
+   }
   }
 }

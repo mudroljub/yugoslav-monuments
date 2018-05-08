@@ -2,17 +2,27 @@
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
+Also see tutorial: [Build a Map with Custom Animated Markers in React Native](https://codedaily.io/tutorials/9/Build-a-Map-with-Custom-Animated-Markers-and-Region-Focus-when-Content-is-Scrolled-in-React-Native)
+
+## Develop
+
 ```
 npm i
 npm start
 ```
 
-See tutorial: [React Native
-Build a Map with Custom Animated Markers and Region Focus when Content is Scrolled in React Native](https://codedaily.io/tutorials/9/Build-a-Map-with-Custom-Animated-Markers-and-Region-Focus-when-Content-is-Scrolled-in-React-Native)
+## Build
+
+1. Install expo cli globally npm install -g exp
+2. Run exp build:android or exp build:ios inside the project
+3. Choose some expo options
+4. Wait few minutes
+
+A build link should be printed in the terminal.
 
 ## TODO
 
-- mozda da sakriva kartice
+- dodati bekend API i autentifikaciju
 
 Bagovi:
 
