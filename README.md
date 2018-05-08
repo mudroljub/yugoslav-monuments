@@ -13,8 +13,8 @@ npm start
 
 ## Build
 
-1. Install expo cli globally npm install -g exp
-2. Run exp build:android or exp build:ios inside the project
+1. Install expo cli globally `npm install -g exp`
+2. Run `exp build:android` or `exp build:ios` inside the project
 3. Choose some expo options
 4. Wait few minutes
 
